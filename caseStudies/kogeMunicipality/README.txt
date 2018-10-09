@@ -3,7 +3,7 @@
 
 for research purposes
 Uppaal Stratego for Intelligent Traffic Lights 
-c.f. ./strategoTraffic.pdf
+c.f. ../../strategoTraffic.pdf
 
 
 A binary of uppaal stratego needs to be at
