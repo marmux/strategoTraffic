@@ -1,0 +1,21 @@
+<routes>
+        <vType id="typeWE" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="16.67" guiShape="passenger"/>
+        <!-- <vType id="typeNS" accel="0.8" decel="4.5" sigma="0.5" length="7" minGap="3" maxSpeed="25" guiShape="bus"/> -->
+	<vType id="typeNS" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="16.67" guiShape="passenger"/>
+
+	<route id="left" edges="366845096#0 366845096#1 366845096#20 366845096#22 366845096#3 366845096#4 366845096#5"/>
+	<route id="left_up" edges="366845096#0 366845096#1 366845096#20 366845096#22 -157076458#1 -157076458#0"/>
+        <!-- <route id="right" edges="51o 1i 2o 52i" /> -->
+        <!-- <route id="up" edges="53o 3i 4o 54i" /> -->
+        <!-- <route id="down" edges="54o 4i 3o 53i" /> -->
+	
+	<vehicle id="left_0" type="typeWE" route="left" depart="0" />
+	<vehicle id="left_1" type="typeWE" route="left" depart="5" />
+	<vehicle id="left_2" type="typeWE" route="left" depart="10" />
+	<vehicle id="left_3" type="typeWE" route="left" depart="15" />
+	<vehicle id="left_4" type="typeWE" route="left_up" depart="16" />
+	<vehicle id="left_5" type="typeWE" route="left_up" depart="17" />
+	<vehicle id="left_6" type="typeWE" route="left_up" depart="18" />
+	<vehicle id="left_7" type="typeWE" route="left_up" depart="19" />
+	
+</routes>

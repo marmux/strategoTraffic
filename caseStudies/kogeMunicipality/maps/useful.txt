@@ -1,0 +1,1 @@
+netconvert --node-files=nylandsvejPlain.nod.xml --connection-files=nylandsvejPlain.con.xml --edge-files=nylandsvejPlain.edg.xml --tllogic-files=nylandsvejPlain.tll.xml  --output-file=nylandsvejGen.net.xml --ignore-errors.edge-type

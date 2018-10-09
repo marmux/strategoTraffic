@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nta PUBLIC '-//Uppaal Team//DTD Flat System 1.1//EN' 'http://www.it.uu.se/research/group/darts/uppaal/flat-1_2.dtd'>
+<nta>
+	<declaration>// Place global declarations here.
+</declaration>
+	<template>
+		<name x="5" y="5">loopController</name>
+		<declaration>// Place local declarations here.
+
+clock x;
+chan ch_reqA, ch_reqB, ch_reqPBin, ch_reqPBout;
+bool reqA, reqB, reqPB;
+const int minGreen = 10;
+const int maxGreenA = 60;
+const int maxGreenB = 30;
+const int extTime = 3;
+int ext = 0;
+
+int extend(int ext, int bound) {
+    ext = ext + extTime;
+    if (ext &gt;= bound)
+        ext = bound;
+    return ext;
+}
+
+
+
+
+</declaration>
+		<location id="id0" x="-1113" y="-68">
+			<name x="-1189" y="-102">GREEN_A</name>
+		</location>
+		<location id="id1" x="-892" y="-272">
+			<name x="-985" y="-289">GREEN_AC</name>
+			<label kind="invariant" x="-1036" y="-263">x &lt;= maxGreenA</label>
+		</location>
+		<location id="id2" x="-680" y="-272">
+			<name x="-690" y="-306">Y_A_B</name>
+			<label kind="invariant" x="-680" y="-255">x &lt;= 8</label>
+		</location>
+		<location id="id3" x="-136" y="-34">
+			<name x="-265" y="-51">GREEN_B</name>
+			<label kind="invariant" x="-299" y="-34">x &lt;= maxGreenB</label>
+		</location>
+		<location id="id4" x="-408" y="306">
+			<name x="-433" y="323">Y_B_A</name>
+		</location>
+		<init ref="id0"/>
+		<transition>
+			<source ref="id4"/>
+			<target ref="id0"/>
+			<nail x="-892" y="306"/>
+		</transition>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id4"/>
+			<label kind="guard" x="-289" y="289">x &gt;= ext &amp;&amp; !reqPB</label>
+			<label kind="assignment" x="-229" y="323">x = 0</label>
+			<nail x="-136" y="306"/>
+		</transition>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id4"/>
+			<label kind="guard" x="-459" y="93">x &gt;= maxGreenB</label>
+			<label kind="assignment" x="-450" y="110">x = 0</label>
+			<nail x="-408" y="-34"/>
+		</transition>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id3"/>
+			<label kind="synchronisation" x="-84" y="59">ch_reqPBout?</label>
+			<label kind="assignment" x="-76" y="76">reqPB = false</label>
+			<nail x="-25" y="34"/>
+			<nail x="-110" y="68"/>
+		</transition>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id3"/>
+			<label kind="synchronisation" x="-10" y="-59">ch_reqPBin?</label>
+			<label kind="assignment" x="-10" y="-42">reqPB = true</label>
+			<nail x="-17" y="-76"/>
+			<nail x="-19" y="26"/>
+		</transition>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id3"/>
+			<label kind="synchronisation" x="-110" y="-161">reqB?</label>
+			<label kind="assignment" x="-127" y="-178">ext = extend(ext,maxGreenB)</label>
+			<nail x="-136" y="-144"/>
+			<nail x="-8" y="-144"/>
+		</transition>
+		<transition>
+			<source ref="id2"/>
+			<target ref="id3"/>
+			<label kind="guard" x="-348" y="-238">x &gt;= 8</label>
+			<label kind="assignment" x="-340" y="-221">x = 0,
+ext = minGreen</label>
+		</transition>
+		<transition>
+			<source ref="id1"/>
+			<target ref="id2"/>
+			<label kind="guard" x="-824" y="-170">x &gt;= maxGreenA</label>
+			<label kind="assignment" x="-773" y="-153">x = 0</label>
+			<nail x="-680" y="-136"/>
+		</transition>
+		<transition>
+			<source ref="id1"/>
+			<target ref="id2"/>
+			<label kind="guard" x="-841" y="-289">x  &gt;= ext &amp;&amp; !reqA</label>
+			<label kind="assignment" x="-799" y="-272">x = 0</label>
+		</transition>
+		<transition>
+			<source ref="id1"/>
+			<target ref="id1"/>
+			<label kind="synchronisation" x="-917" y="-433">reqA?</label>
+			<label kind="assignment" x="-986" y="-408">ext = extend(ext,maxGreenA)</label>
+			<nail x="-959" y="-408"/>
+			<nail x="-815" y="-408"/>
+		</transition>
+		<transition>
+			<source ref="id0"/>
+			<target ref="id1"/>
+			<label kind="synchronisation" x="-1130" y="-221">ch_reqPBin?</label>
+			<label kind="assignment" x="-1130" y="-195">reqPB = true,
+ext = minGreen,
+x = 0</label>
+		</transition>
+		<transition>
+			<source ref="id0"/>
+			<target ref="id1"/>
+			<label kind="synchronisation" x="-884" y="25">ch_reqB?</label>
+			<label kind="assignment" x="-935" y="85">reqB = true,
+ext = minGreen,
+x = 0</label>
+			<nail x="-892" y="84"/>
+		</transition>
+	</template>
+	<system>// Place template instantiations here.
+Process = Template();
+// List one or more processes to be composed into a system.
+system Process;
+    </system>
+	<queries>
+		<query>
+			<formula></formula>
+			<comment></comment>
+		</query>
+	</queries>
+</nta>

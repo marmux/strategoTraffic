@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<additional>
+
+  <!-- these detectors are used by the loop controller -->
+  <inductionLoop id="left_e11" lane="366845096#20_0" pos="8" freq="10"
+		 file="cross1e1.out"/>
+  <!-- left_e12 is the one closest to the crossing in dir WE  -->
+  <inductionLoop id="left_e12" lane="366845096#20_0" pos="58"
+  		 freq="10" file="cross1e1.out"/> 
+  <!-- right_e11 is the closes to the crossing in direction EW, thus left_e12 and right_e11 are in relation -->
+  <inductionLoop id="right_e11" lane="-366845096#30_0" pos="90"
+  		 freq="10" file="cross1e1.out"/>
+  <inductionLoop id="right_e12" lane="-366845096#30_0" pos="40"
+		 freq="10" file="cross1e1.out"/>
+  <inductionLoop id="up_e11" lane="157076458#1_0" pos="40" freq="10"
+		 file="cross1e1.out"/>
+  <laneAreaDetector id="up_e21" lane="157076458#1_0" pos="95"
+		    length="15" freq="10" file="cross1e2.out"
+		    friendlyPos="false"/>
+  <inductionLoop id="down_e11" lane="26446721#2_0" pos="27" freq="10"
+		 file="cross1e1.out"/>
+  <laneAreaDetector id="down_e21" lane="26446721#2_0" pos="83"
+    		    length="15" freq="10" file="cross1e2.out"
+    		    friendlyPos="false"/>
+
+  <!-- these detectors are the "real" ones from the køge kommune -->
+  <laneAreaDetector id="left_22" lane="366845096#20_0" pos="1" length="60" freq="10" file="e2left.out" friendlyPos="false"/>
+  <laneAreaDetector id="left_220" lane="366845096#22_0" pos="0" length="60" freq="10" file="e2left.out" friendlyPos="false"/>
+  <laneAreaDetector id="left_221" lane="366845096#22_1" pos="1" length="60" freq="10" file="e2left.out" friendlyPos="false"/>
+
+  <laneAreaDetector id="right_30" lane="-366845096#30_0" pos="33" length="60" freq="10" file="e2right.out" friendlyPos="false"/>
+  <laneAreaDetector id="right_320" lane="-366845096#32_0" pos="0" length="71" freq="10" file="e2right.out" friendlyPos="false"/>
+  <laneAreaDetector id="right_321" lane="-366845096#32_1" pos="1" length="71" freq="10" file="e2right.out" friendlyPos="false"/>
+
+  <laneAreaDetector id="up_10" lane="157076458#1_0" pos="1" length="106" freq="10" file="e2up.out" friendlyPos="false"/>
+  <laneAreaDetector id="down_20" lane="26446721#2_0" pos="1" length="95" freq="10" file="e2up.out" friendlyPos="false"/>
+
+  <!-- these detectors are used for messuring extra long queues -->
+  <laneAreaDetector id="ex_left_1" lane="366845096#1_0" pos="1"
+		    length="12" freq="10" file="e2left.out"
+		    friendlyPos="false"/>
+  <laneAreaDetector id="ex_left_2" lane="366845096#0_0" pos="1"
+		    length="300" freq="10" file="e2left.out"
+		    friendlyPos="false"/>
+  <laneAreaDetector id="ex_up_1" lane="157076458#0_0" pos="1"
+		    length="638" freq="10" file="e2up.out"
+		    friendlyPos="false"/>
+  <laneAreaDetector id="ex_down_1" lane="26446721#1_0" pos="100"
+		    length="650" freq="10" file="e2up.out"
+		    friendlyPos="false"/>
+  <laneAreaDetector id="ex_right_1" lane="-366845096#30_0" pos="1"
+		    length="32" freq="10" file="e2right.out"
+		    friendlyPos="false"/>
+  <laneAreaDetector id="ex_right_2" lane="-366845096#4_0" pos="1"
+		    length="220" freq="10" file="e2right.out"
+		    friendlyPos="false"/>
+  <laneAreaDetector id="ex_right_3" lane="-366845096#5_0" pos="1"
+		    length="213" freq="10" file="e2right.out"
+		    friendlyPos="false"/>
+  
+  
+</additional> 

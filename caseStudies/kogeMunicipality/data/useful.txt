@@ -1,0 +1,6 @@
+netconvert --node-files=nylandsvejPlain.nod.xml --connection-files=nylandsvejPlain.con.xml --edge-files=nylandsvejPlain.edg.xml --tllogic-files=nylandsvejPlain.tll.xml  --output-file=nylandsvejGen.net.xml --ignore-errors.edge-type
+sumo-gui -c nylandsvejPlain.sumocfg --tripinfo-output tripinfo.xml
+python runnerNoPred.py --stratego --expid 1124
+python runner5secs.py --sumocfg data/FC_NS_LC_WE.sumocfg --stratego --expid 1124 --debug --tripinfo-output FC_NS_LC_WE1124.info.xml
+python runner5secs.py --sumocfg data/FC_NS_LC_WE.sumocfg --stratego --expid 1124 --debug
+netconvert --node-files=nylandsvejPlain.nod.xml --connection-files=nylandsvejPlain.con.xml --edge-files=nylandsvejSpeed50.edg.xml --tllogic-files=nylandsvejPlain.tll.xml  --output-file=nylandsvejGen.net.xml --ignore-errors.edge-type

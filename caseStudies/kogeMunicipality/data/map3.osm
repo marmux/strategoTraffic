@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.5.3 (933 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="57.0478200" minlon="9.9276000" maxlat="57.0480600" maxlon="9.9285100"/>
+ <node id="59630235" visible="true" version="2" changeset="6569688" timestamp="2010-12-06T22:24:48Z" user="pelleg" uid="130539" lat="57.0487840" lon="9.9277843"/>
+ <node id="856574305" visible="true" version="1" changeset="5472277" timestamp="2010-08-12T11:27:12Z" user="pelleg" uid="130539" lat="57.0492386" lon="9.9258786"/>
+ <node id="861638634" visible="true" version="2" changeset="6569688" timestamp="2010-12-06T22:24:46Z" user="pelleg" uid="130539" lat="57.0490229" lon="9.9282529"/>
+ <node id="861638633" visible="true" version="2" changeset="6569688" timestamp="2010-12-06T22:24:52Z" user="pelleg" uid="130539" lat="57.0488472" lon="9.9289118"/>
+ <node id="1023852392" visible="true" version="3" changeset="33998618" timestamp="2015-09-13T12:13:29Z" user="hvidstue" uid="2677992" lat="57.0469256" lon="9.9318741"/>
+ <node id="1023852376" visible="true" version="2" changeset="21387863" timestamp="2014-03-29T18:44:36Z" user="Asterix200" uid="803459" lat="57.0469504" lon="9.9333644"/>
+ <node id="388246369" visible="true" version="3" changeset="6557403" timestamp="2010-12-05T21:50:51Z" user="pelleg" uid="130539" lat="57.0469524" lon="9.9327525"/>
+ <node id="856574267" visible="true" version="2" changeset="6557403" timestamp="2010-12-05T21:51:01Z" user="pelleg" uid="130539" lat="57.0470019" lon="9.9312747"/>
+ <node id="856574262" visible="true" version="3" changeset="21387863" timestamp="2014-03-29T18:44:35Z" user="Asterix200" uid="803459" lat="57.0470343" lon="9.9315261"/>
+ <node id="1023852415" visible="true" version="2" changeset="21387863" timestamp="2014-03-29T18:44:36Z" user="Asterix200" uid="803459" lat="57.0469880" lon="9.9340608"/>
+ <node id="856574428" visible="true" version="3" changeset="22399878" timestamp="2014-05-18T04:02:03Z" user="Asterix200" uid="803459" lat="57.0468997" lon="9.9323578"/>
+ <node id="1025595806" visible="true" version="1" changeset="6569688" timestamp="2010-12-06T22:24:27Z" user="pelleg" uid="130539" lat="57.0488470" lon="9.9278502"/>
+ <node id="1025595946" visible="true" version="1" changeset="6569688" timestamp="2010-12-06T22:24:31Z" user="pelleg" uid="130539" lat="57.0488045" lon="9.9280418"/>
+ <node id="1792200369" visible="true" version="2" changeset="33998795" timestamp="2015-09-13T12:26:09Z" user="hvidstue" uid="2677992" lat="57.0478864" lon="9.9277389"/>
+ <node id="1792200373" visible="true" version="2" changeset="33998795" timestamp="2015-09-13T12:26:09Z" user="hvidstue" uid="2677992" lat="57.0474263" lon="9.9272253"/>
+ <node id="1792200390" visible="true" version="3" changeset="34000981" timestamp="2015-09-13T14:32:29Z" user="hvidstue" uid="2677992" lat="57.0473267" lon="9.9269378"/>
+ <node id="1792384676" visible="true" version="3" changeset="37835568" timestamp="2016-03-15T06:12:51Z" user="hvidstue" uid="2677992" lat="57.0476821" lon="9.9276838"/>
+ <node id="860034172" visible="true" version="4" changeset="33998618" timestamp="2015-09-13T12:13:31Z" user="hvidstue" uid="2677992" lat="57.0479073" lon="9.9280278"/>
+ <node id="1811633224" visible="true" version="1" changeset="12103467" timestamp="2012-07-03T19:14:25Z" user="Flare" uid="325779" lat="57.0482479" lon="9.9283409"/>
+ <node id="1811633241" visible="true" version="1" changeset="12103467" timestamp="2012-07-03T19:14:26Z" user="Flare" uid="325779" lat="57.0485905" lon="9.9283915"/>
+ <node id="1811633242" visible="true" version="1" changeset="12103467" timestamp="2012-07-03T19:14:26Z" user="Flare" uid="325779" lat="57.0485951" lon="9.9284115"/>
+ <node id="1811633267" visible="true" version="1" changeset="12103467" timestamp="2012-07-03T19:14:26Z" user="Flare" uid="325779" lat="57.0487280" lon="9.9285371"/>
+ <node id="1811633275" visible="true" version="1" changeset="12103467" timestamp="2012-07-03T19:14:26Z" user="Flare" uid="325779" lat="57.0487553" lon="9.9285387"/>
+ <node id="1811633281" visible="true" version="1" changeset="12103467" timestamp="2012-07-03T19:14:26Z" user="Flare" uid="325779" lat="57.0487853" lon="9.9285387"/>
+ <node id="1811633285" visible="true" version="1" changeset="12103467" timestamp="2012-07-03T19:14:26Z" user="Flare" uid="325779" lat="57.0488127" lon="9.9285053"/>
+ <node id="1811633288" visible="true" version="1" changeset="12103467" timestamp="2012-07-03T19:14:26Z" user="Flare" uid="325779" lat="57.0488147" lon="9.9278164"/>
+ <node id="1811633290" visible="true" version="1" changeset="12103467" timestamp="2012-07-03T19:14:26Z" user="Flare" uid="325779" lat="57.0488272" lon="9.9284551"/>
+ <node id="1811633301" visible="true" version="1" changeset="12103467" timestamp="2012-07-03T19:14:27Z" user="Flare" uid="325779" lat="57.0488336" lon="9.9284065"/>
+ <node id="1811633304" visible="true" version="1" changeset="12103467" timestamp="2012-07-03T19:14:27Z" user="Flare" uid="325779" lat="57.0488345" lon="9.9283597"/>
+ <node id="1811633313" visible="true" version="1" changeset="12103467" timestamp="2012-07-03T19:14:27Z" user="Flare" uid="325779" lat="57.0488958" lon="9.9287297"/>
+ <node id="1811633317" visible="true" version="1" changeset="12103467" timestamp="2012-07-03T19:14:27Z" user="Flare" uid="325779" lat="57.0489277" lon="9.9283362"/>
+ <node id="1811633319" visible="true" version="1" changeset="12103467" timestamp="2012-07-03T19:14:27Z" user="Flare" uid="325779" lat="57.0489399" lon="9.9283331"/>
+ <node id="3373471779" visible="true" version="4" changeset="34001747" timestamp="2015-09-13T15:11:20Z" user="hvidstue" uid="2677992" lat="57.0472407" lon="9.9274415"/>
+ <node id="3373471780" visible="true" version="2" changeset="37835568" timestamp="2016-03-15T06:12:51Z" user="hvidstue" uid="2677992" lat="57.0473835" lon="9.9276039"/>
+ <node id="3373487857" visible="true" version="3" changeset="37835568" timestamp="2016-03-15T06:12:51Z" user="hvidstue" uid="2677992" lat="57.0473965" lon="9.9275650">
+  <tag k="amenity" v="parking_entrance"/>
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="3373483842" visible="true" version="3" changeset="37835568" timestamp="2016-03-15T06:12:51Z" user="hvidstue" uid="2677992" lat="57.0474552" lon="9.9273891">
+  <tag k="amenity" v="parking_entrance"/>
+ </node>
+ <node id="3373550540" visible="true" version="1" changeset="29119519" timestamp="2015-02-26T17:57:40Z" user="hvidstue" uid="2677992" lat="57.0468925" lon="9.9263869"/>
+ <node id="3373550541" visible="true" version="1" changeset="29119519" timestamp="2015-02-26T17:57:40Z" user="hvidstue" uid="2677992" lat="57.0470186" lon="9.9264011"/>
+ <node id="3373550543" visible="true" version="2" changeset="34000981" timestamp="2015-09-13T14:32:29Z" user="hvidstue" uid="2677992" lat="57.0473001" lon="9.9269231"/>
+ <node id="3373550548" visible="true" version="2" changeset="33998795" timestamp="2015-09-13T12:26:09Z" user="hvidstue" uid="2677992" lat="57.0483362" lon="9.9263995"/>
+ <node id="1792200379" visible="true" version="3" changeset="33998795" timestamp="2015-09-13T12:26:09Z" user="hvidstue" uid="2677992" lat="57.0476517" lon="9.9259368"/>
+ <node id="3373578168" visible="true" version="1" changeset="29119908" timestamp="2015-02-26T18:17:14Z" user="hvidstue" uid="2677992" lat="57.0468804" lon="9.9264457">
+  <tag k="entrance" v="yes"/>
+ </node>
+ <node id="3373578169" visible="true" version="2" changeset="34000981" timestamp="2015-09-13T14:32:29Z" user="hvidstue" uid="2677992" lat="57.0475236" lon="9.9257750">
+  <tag k="entrance" v="yes"/>
+ </node>
+ <node id="2246637299" visible="true" version="1" changeset="15595202" timestamp="2013-04-03T14:01:33Z" user="xcalibur" uid="522879" lat="57.0473696" lon="9.9299633"/>
+ <node id="2503341164" visible="true" version="2" changeset="33998618" timestamp="2015-09-13T12:13:30Z" user="hvidstue" uid="2677992" lat="57.0480315" lon="9.9278482"/>
+ <node id="2752315488" visible="true" version="1" changeset="21387863" timestamp="2014-03-29T18:44:32Z" user="Asterix200" uid="803459" lat="57.0471206" lon="9.9310642"/>
+ <node id="2752315492" visible="true" version="1" changeset="21387863" timestamp="2014-03-29T18:44:32Z" user="Asterix200" uid="803459" lat="57.0472396" lon="9.9306469"/>
+ <node id="2752315528" visible="true" version="1" changeset="21387863" timestamp="2014-03-29T18:44:32Z" user="Asterix200" uid="803459" lat="57.0470008" lon="9.9318684"/>
+ <node id="2752315536" visible="true" version="1" changeset="21387863" timestamp="2014-03-29T18:44:33Z" user="Asterix200" uid="803459" lat="57.0470637" lon="9.9313244"/>
+ <node id="2752315572" visible="true" version="1" changeset="21387863" timestamp="2014-03-29T18:44:33Z" user="Asterix200" uid="803459" lat="57.0471810" lon="9.9308570"/>
+ <node id="2752315580" visible="true" version="1" changeset="21387863" timestamp="2014-03-29T18:44:34Z" user="Asterix200" uid="803459" lat="57.0469734" lon="9.9323461"/>
+ <node id="1023852412" visible="true" version="2" changeset="21387863" timestamp="2014-03-29T18:44:36Z" user="Asterix200" uid="803459" lat="57.0469671" lon="9.9337511"/>
+ <node id="2820314841" visible="true" version="1" changeset="21974662" timestamp="2014-04-27T11:06:40Z" user="Asterix200" uid="803459" lat="57.0484100" lon="9.9266109"/>
+ <node id="2820314847" visible="true" version="1" changeset="21974662" timestamp="2014-04-27T11:06:40Z" user="Asterix200" uid="803459" lat="57.0489215" lon="9.9261083"/>
+ <node id="2820314849" visible="true" version="1" changeset="21974662" timestamp="2014-04-27T11:06:40Z" user="Asterix200" uid="803459" lat="57.0486473" lon="9.9262746"/>
+ <node id="2820314857" visible="true" version="1" changeset="21974662" timestamp="2014-04-27T11:06:41Z" user="Asterix200" uid="803459" lat="57.0485489" lon="9.9263808"/>
+ <node id="2820314865" visible="true" version="1" changeset="21974662" timestamp="2014-04-27T11:06:41Z" user="Asterix200" uid="803459" lat="57.0487924" lon="9.9261863"/>
+ <node id="2820314867" visible="true" version="1" changeset="21974662" timestamp="2014-04-27T11:06:41Z" user="Asterix200" uid="803459" lat="57.0488420" lon="9.9261608"/>
+ <node id="2820314877" visible="true" version="1" changeset="21974662" timestamp="2014-04-27T11:06:41Z" user="Asterix200" uid="803459" lat="57.0483722" lon="9.9266970"/>
+ <node id="2820314884" visible="true" version="1" changeset="21974662" timestamp="2014-04-27T11:06:41Z" user="Asterix200" uid="803459" lat="57.0484452" lon="9.9265456"/>
+ <node id="2820314887" visible="true" version="1" changeset="21974662" timestamp="2014-04-27T11:06:41Z" user="Asterix200" uid="803459" lat="57.0485927" lon="9.9263333"/>
+ <node id="2820314890" visible="true" version="1" changeset="21974662" timestamp="2014-04-27T11:06:41Z" user="Asterix200" uid="803459" lat="57.0489955" lon="9.9260663"/>
+ <node id="2820314891" visible="true" version="1" changeset="21974662" timestamp="2014-04-27T11:06:41Z" user="Asterix200" uid="803459" lat="57.0487173" lon="9.9262300"/>
+ <node id="2820314895" visible="true" version="1" changeset="21974662" timestamp="2014-04-27T11:06:41Z" user="Asterix200" uid="803459" lat="57.0485051" lon="9.9264381"/>
+ <node id="2820314842" visible="true" version="2" changeset="33998795" timestamp="2015-09-13T12:26:09Z" user="hvidstue" uid="2677992" lat="57.0482002" lon="9.9270430"/>
+ <node id="2820314859" visible="true" version="2" changeset="33998795" timestamp="2015-09-13T12:26:09Z" user="hvidstue" uid="2677992" lat="57.0483177" lon="9.9268399"/>
+ <node id="59630236" visible="true" version="5" changeset="33998795" timestamp="2015-09-13T12:26:10Z" user="hvidstue" uid="2677992" lat="57.0482056" lon="9.9272260"/>
+ <node id="2865694072" visible="true" version="1" changeset="22399878" timestamp="2014-05-18T04:02:03Z" user="Asterix200" uid="803459" lat="57.0470467" lon="9.9310955"/>
+ <node id="2865694073" visible="true" version="1" changeset="22399878" timestamp="2014-05-18T04:02:03Z" user="Asterix200" uid="803459" lat="57.0471441" lon="9.9307386"/>
+ <node id="2865694074" visible="true" version="1" changeset="22399878" timestamp="2014-05-18T04:02:03Z" user="Asterix200" uid="803459" lat="57.0469401" lon="9.9316649"/>
+ <node id="2925708692" visible="true" version="1" changeset="23058445" timestamp="2014-06-21T09:45:59Z" user="Asterix200" uid="803459" lat="57.0468888" lon="9.9325820"/>
+ <node id="2925708699" visible="true" version="1" changeset="23058445" timestamp="2014-06-21T09:45:59Z" user="Asterix200" uid="803459" lat="57.0468815" lon="9.9327966"/>
+ <node id="2925708700" visible="true" version="1" changeset="23058445" timestamp="2014-06-21T09:45:59Z" user="Asterix200" uid="803459" lat="57.0468754" lon="9.9329634"/>
+ <node id="3497495556" visible="true" version="2" changeset="37835568" timestamp="2016-03-15T06:12:51Z" user="hvidstue" uid="2677992" lat="57.0479310" lon="9.9283948">
+  <tag k="highway" v="street_lamp"/>
+ </node>
+ <node id="3741052164" visible="true" version="1" changeset="33996991" timestamp="2015-09-13T10:31:00Z" user="hvidstue" uid="2677992" lat="57.0470376" lon="9.9315035"/>
+ <node id="2246637301" visible="true" version="3" changeset="33996991" timestamp="2015-09-13T10:31:03Z" user="hvidstue" uid="2677992" lat="57.0469640" lon="9.9314740"/>
+ <node id="3741138081" visible="true" version="1" changeset="33998618" timestamp="2015-09-13T12:13:05Z" user="hvidstue" uid="2677992" lat="57.0469166" lon="9.9320346"/>
+ <node id="3741138088" visible="true" version="1" changeset="33998618" timestamp="2015-09-13T12:13:05Z" user="hvidstue" uid="2677992" lat="57.0469907" lon="9.9320452"/>
+ <node id="3741138091" visible="true" version="1" changeset="33998618" timestamp="2015-09-13T12:13:05Z" user="hvidstue" uid="2677992" lat="57.0469997" lon="9.9318872"/>
+ <node id="3741138642" visible="true" version="1" changeset="33998618" timestamp="2015-09-13T12:13:06Z" user="hvidstue" uid="2677992" lat="57.0474263" lon="9.9299926"/>
+ <node id="3741138678" visible="true" version="1" changeset="33998618" timestamp="2015-09-13T12:13:07Z" user="hvidstue" uid="2677992" lat="57.0476433" lon="9.9278123"/>
+ <node id="3741138683" visible="true" version="1" changeset="33998618" timestamp="2015-09-13T12:13:07Z" user="hvidstue" uid="2677992" lat="57.0477542" lon="9.9279489">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="3741138685" visible="true" version="1" changeset="33998618" timestamp="2015-09-13T12:13:07Z" user="hvidstue" uid="2677992" lat="57.0478210" lon="9.9283012"/>
+ <node id="3741138687" visible="true" version="1" changeset="33998618" timestamp="2015-09-13T12:13:07Z" user="hvidstue" uid="2677992" lat="57.0478905" lon="9.9283604">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="3741138690" visible="true" version="1" changeset="33998618" timestamp="2015-09-13T12:13:07Z" user="hvidstue" uid="2677992" lat="57.0480108" lon="9.9277002">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="3741138692" visible="true" version="1" changeset="33998618" timestamp="2015-09-13T12:13:07Z" user="hvidstue" uid="2677992" lat="57.0480770" lon="9.9282057">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="1792200382" visible="true" version="5" changeset="33999531" timestamp="2015-09-13T13:07:30Z" user="hvidstue" uid="2677992" lat="57.0468675" lon="9.9265051"/>
+ <node id="1792200398" visible="true" version="5" changeset="33999531" timestamp="2015-09-13T13:07:30Z" user="hvidstue" uid="2677992" lat="57.0468512" lon="9.9265875"/>
+ <node id="860034182" visible="true" version="4" changeset="33998618" timestamp="2015-09-13T12:13:31Z" user="hvidstue" uid="2677992" lat="57.0479639" lon="9.9280905"/>
+ <node id="3373550547" visible="true" version="3" changeset="33998795" timestamp="2015-09-13T12:26:09Z" user="hvidstue" uid="2677992" lat="57.0482089" lon="9.9262521"/>
+ <node id="3741144710" visible="true" version="1" changeset="33998795" timestamp="2015-09-13T12:26:07Z" user="hvidstue" uid="2677992" lat="57.0481561" lon="9.9271962"/>
+ <node id="3741144711" visible="true" version="1" changeset="33998795" timestamp="2015-09-13T12:26:07Z" user="hvidstue" uid="2677992" lat="57.0482024" lon="9.9272373"/>
+ <node id="3373550546" visible="true" version="2" changeset="33998795" timestamp="2015-09-13T12:26:09Z" user="hvidstue" uid="2677992" lat="57.0481945" lon="9.9262978"/>
+ <node id="3741138681" visible="true" version="2" changeset="33998795" timestamp="2015-09-13T12:26:10Z" user="hvidstue" uid="2677992" lat="57.0477135" lon="9.9275460"/>
+ <node id="3741138684" visible="true" version="2" changeset="33998795" timestamp="2015-09-13T12:26:10Z" user="hvidstue" uid="2677992" lat="57.0478043" lon="9.9280063">
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="3741138688" visible="true" version="2" changeset="33998795" timestamp="2015-09-13T12:26:10Z" user="hvidstue" uid="2677992" lat="57.0479661" lon="9.9278417">
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="3741138689" visible="true" version="2" changeset="33998795" timestamp="2015-09-13T12:26:10Z" user="hvidstue" uid="2677992" lat="57.0480104" lon="9.9279194">
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="3741138691" visible="true" version="2" changeset="33998795" timestamp="2015-09-13T12:26:10Z" user="hvidstue" uid="2677992" lat="57.0480226" lon="9.9281544">
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="3373471777" visible="true" version="3" changeset="34001180" timestamp="2015-09-13T14:43:49Z" user="hvidstue" uid="2677992" lat="57.0483235" lon="9.9264059"/>
+ <node id="3373471778" visible="true" version="3" changeset="34001180" timestamp="2015-09-13T14:43:49Z" user="hvidstue" uid="2677992" lat="57.0474973" lon="9.9259311"/>
+ <node id="3741138645" visible="true" version="3" changeset="34001475" timestamp="2015-09-13T14:57:44Z" user="hvidstue" uid="2677992" lat="57.0474512" lon="9.9270828">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="3741138686" visible="true" version="3" changeset="37835568" timestamp="2016-03-15T06:12:51Z" user="hvidstue" uid="2677992" lat="57.0478496" lon="9.9278702">
+  <tag k="crossing_ref" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="3373550544" visible="true" version="3" changeset="33999531" timestamp="2015-09-13T13:07:30Z" user="hvidstue" uid="2677992" lat="57.0478059" lon="9.9260238"/>
+ <node id="3373550545" visible="true" version="3" changeset="33999531" timestamp="2015-09-13T13:07:30Z" user="hvidstue" uid="2677992" lat="57.0477987" lon="9.9260690"/>
+ <node id="3741197430" visible="true" version="2" changeset="34000981" timestamp="2015-09-13T14:32:29Z" user="hvidstue" uid="2677992" lat="57.0472773" lon="9.9270609"/>
+ <node id="3741290527" visible="true" version="1" changeset="34000593" timestamp="2015-09-13T14:10:10Z" user="hvidstue" uid="2677992" lat="57.0475987" lon="9.9291197"/>
+ <node id="3741290528" visible="true" version="1" changeset="34000593" timestamp="2015-09-13T14:10:10Z" user="hvidstue" uid="2677992" lat="57.0476559" lon="9.9291855"/>
+ <node id="3741318976" visible="true" version="1" changeset="34000835" timestamp="2015-09-13T14:23:37Z" user="hvidstue" uid="2677992" lat="57.0469938" lon="9.9263983"/>
+ <node id="3741339527" visible="true" version="1" changeset="34000981" timestamp="2015-09-13T14:32:28Z" user="hvidstue" uid="2677992" lat="57.0474640" lon="9.9270096"/>
+ <node id="3741339528" visible="true" version="1" changeset="34000981" timestamp="2015-09-13T14:32:28Z" user="hvidstue" uid="2677992" lat="57.0474818" lon="9.9269083"/>
+ <node id="3741339530" visible="true" version="1" changeset="34000981" timestamp="2015-09-13T14:32:29Z" user="hvidstue" uid="2677992" lat="57.0475682" lon="9.9264142"/>
+ <node id="3741339531" visible="true" version="1" changeset="34000981" timestamp="2015-09-13T14:32:29Z" user="hvidstue" uid="2677992" lat="57.0476388" lon="9.9260108"/>
+ <node id="3741339532" visible="true" version="1" changeset="34000981" timestamp="2015-09-13T14:32:29Z" user="hvidstue" uid="2677992" lat="57.0476785" lon="9.9259519">
+  <tag k="entrance" v="yes"/>
+ </node>
+ <node id="3373550542" visible="true" version="2" changeset="34000981" timestamp="2015-09-13T14:32:29Z" user="hvidstue" uid="2677992" lat="57.0471596" lon="9.9255778"/>
+ <node id="3741339424" visible="true" version="2" changeset="34001747" timestamp="2015-09-13T15:11:20Z" user="hvidstue" uid="2677992" lat="57.0473381" lon="9.9268706"/>
+ <node id="3373471782" visible="true" version="3" changeset="34001180" timestamp="2015-09-13T14:43:49Z" user="hvidstue" uid="2677992" lat="57.0474907" lon="9.9272829"/>
+ <node id="3373471783" visible="true" version="3" changeset="34001180" timestamp="2015-09-13T14:43:49Z" user="hvidstue" uid="2677992" lat="57.0478811" lon="9.9277219"/>
+ <node id="28445697" visible="true" version="5" changeset="36208365" timestamp="2015-12-27T23:11:05Z" user="Hjart" uid="207581" lat="57.0469882" lon="9.9342265">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="4061029856" visible="true" version="1" changeset="37835568" timestamp="2016-03-15T06:12:50Z" user="hvidstue" uid="2677992" lat="57.0477707" lon="9.9280976"/>
+ <node id="4061029857" visible="true" version="1" changeset="37835568" timestamp="2016-03-15T06:12:50Z" user="hvidstue" uid="2677992" lat="57.0479364" lon="9.9276985">
+  <tag k="highway" v="street_lamp"/>
+ </node>
+ <way id="55971438" visible="true" version="13" changeset="34000593" timestamp="2015-09-13T14:10:10Z" user="hvidstue" uid="2677992">
+  <nd ref="28445697"/>
+  <nd ref="1023852415"/>
+  <nd ref="1023852412"/>
+  <nd ref="1023852376"/>
+  <nd ref="388246369"/>
+  <nd ref="2752315580"/>
+  <nd ref="3741138088"/>
+  <nd ref="3741138091"/>
+  <nd ref="2752315528"/>
+  <nd ref="856574262"/>
+  <nd ref="3741052164"/>
+  <nd ref="2752315536"/>
+  <nd ref="2752315488"/>
+  <nd ref="2752315572"/>
+  <nd ref="2752315492"/>
+  <nd ref="3741138642"/>
+  <nd ref="3741290528"/>
+  <nd ref="3741138687"/>
+  <nd ref="860034182"/>
+  <tag k="cycleway" v="track"/>
+  <tag k="destination" v="Centrum"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="name" v="Nyhavnsgade"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="72597045" visible="true" version="7" changeset="33998618" timestamp="2015-09-13T12:13:28Z" user="hvidstue" uid="2677992">
+  <nd ref="59630235"/>
+  <nd ref="1811633288"/>
+  <nd ref="1025595806"/>
+  <nd ref="1025595946"/>
+  <nd ref="861638634"/>
+  <nd ref="1811633313"/>
+  <nd ref="861638633"/>
+  <nd ref="1811633224"/>
+  <nd ref="3741138692"/>
+  <nd ref="3741138691"/>
+  <nd ref="860034182"/>
+  <nd ref="860034172"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Rendsburggade"/>
+ </way>
+ <way id="330383625" visible="true" version="8" changeset="37835578" timestamp="2016-03-15T06:14:26Z" user="hvidstue" uid="2677992">
+  <nd ref="3373471777"/>
+  <nd ref="3373471778"/>
+  <nd ref="3373471779"/>
+  <nd ref="3373471780"/>
+  <nd ref="3373487857"/>
+  <nd ref="3373483842"/>
+  <nd ref="3373471782"/>
+  <nd ref="3373471783"/>
+  <nd ref="3373471777"/>
+  <tag k="amenity" v="parking"/>
+  <tag k="building:levels" v="-1;-4"/>
+  <tag k="fee" v="yes"/>
+  <tag k="layer" v="-1"/>
+  <tag k="operator" v="Friis"/>
+  <tag k="parking" v="underground"/>
+  <tag k="park_ride" v="no"/>
+ </way>
+ <way id="170011919" visible="true" version="2" changeset="18460167" timestamp="2013-10-20T21:49:53Z" user="Jørn-osm" uid="603524">
+  <nd ref="1811633319"/>
+  <nd ref="1811633317"/>
+  <nd ref="1811633304"/>
+  <nd ref="1811633301"/>
+  <nd ref="1811633290"/>
+  <nd ref="1811633285"/>
+  <nd ref="1811633281"/>
+  <nd ref="1811633275"/>
+  <nd ref="1811633267"/>
+  <nd ref="1811633242"/>
+  <nd ref="1811633241"/>
+  <nd ref="2503341164"/>
+  <tag k="highway" v="footway"/>
+  <tag k="surface" v="paved"/>
+ </way>
+ <way id="216107256" visible="true" version="5" changeset="33998795" timestamp="2015-09-13T12:26:08Z" user="hvidstue" uid="2677992">
+  <nd ref="860034182"/>
+  <nd ref="3741138689"/>
+  <nd ref="2503341164"/>
+  <nd ref="3741144711"/>
+  <nd ref="59630236"/>
+  <nd ref="2820314859"/>
+  <nd ref="2820314877"/>
+  <nd ref="2820314841"/>
+  <nd ref="2820314884"/>
+  <nd ref="2820314895"/>
+  <nd ref="2820314857"/>
+  <nd ref="2820314887"/>
+  <nd ref="2820314849"/>
+  <nd ref="2820314891"/>
+  <nd ref="2820314865"/>
+  <nd ref="2820314867"/>
+  <nd ref="2820314847"/>
+  <nd ref="2820314890"/>
+  <nd ref="856574305"/>
+  <tag k="cycleway" v="track"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="name" v="Nyhavnsgade"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="370412385" visible="true" version="1" changeset="33998795" timestamp="2015-09-13T12:26:08Z" user="hvidstue" uid="2677992">
+  <nd ref="3741138689"/>
+  <nd ref="3741138688"/>
+  <tag k="footway" v="crossing"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="370412382" visible="true" version="2" changeset="34000593" timestamp="2015-09-13T14:10:10Z" user="hvidstue" uid="2677992">
+  <nd ref="2820314842"/>
+  <nd ref="3741144710"/>
+  <nd ref="3741138690"/>
+  <nd ref="3741138688"/>
+  <nd ref="860034172"/>
+  <nd ref="3741138685"/>
+  <nd ref="3741290527"/>
+  <nd ref="2246637299"/>
+  <nd ref="2865694073"/>
+  <nd ref="2865694072"/>
+  <nd ref="856574267"/>
+  <nd ref="2246637301"/>
+  <nd ref="2865694074"/>
+  <nd ref="1023852392"/>
+  <nd ref="3741138081"/>
+  <nd ref="856574428"/>
+  <nd ref="2925708692"/>
+  <nd ref="2925708699"/>
+  <nd ref="2925708700"/>
+  <tag k="cycleway" v="track"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="name" v="Nyhavnsgade"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="370411695" visible="true" version="3" changeset="37574277" timestamp="2016-03-02T20:25:25Z" user="hvidstue" uid="2677992">
+  <nd ref="860034172"/>
+  <nd ref="3741138686"/>
+  <nd ref="1792384676"/>
+  <tag k="cycleway" v="lane"/>
+  <tag k="highway" v="residential"/>
+  <tag k="maxspeed" v="50"/>
+  <tag k="name" v="Rendsburggade"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="source:maxspeed" v="DK:urban"/>
+ </way>
+ <way id="370412384" visible="true" version="2" changeset="37574277" timestamp="2016-03-02T20:25:26Z" user="hvidstue" uid="2677992">
+  <nd ref="3741138678"/>
+  <nd ref="3741138683"/>
+  <nd ref="3741138684"/>
+  <nd ref="860034172"/>
+  <tag k="cycleway" v="track"/>
+  <tag k="highway" v="residential"/>
+  <tag k="maxspeed" v="50"/>
+  <tag k="name" v="Rendsburggade"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="source:maxspeed" v="DK:urban"/>
+ </way>
+ <way id="370412386" visible="true" version="2" changeset="37835568" timestamp="2016-03-15T06:12:50Z" user="hvidstue" uid="2677992">
+  <nd ref="3741138686"/>
+  <nd ref="3741138684"/>
+  <nd ref="4061029856"/>
+  <tag k="footway" v="crossing"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="441887338" visible="true" version="1" changeset="42073887" timestamp="2016-09-11T09:10:21Z" user="Hjart" uid="207581">
+  <nd ref="3373550542"/>
+  <nd ref="3373578169"/>
+  <nd ref="3373471778"/>
+  <nd ref="3741339531"/>
+  <nd ref="1792200379"/>
+  <nd ref="3373550544"/>
+  <nd ref="3373550545"/>
+  <nd ref="3373550546"/>
+  <nd ref="3373550547"/>
+  <nd ref="3373550548"/>
+  <nd ref="1792200369"/>
+  <nd ref="3741138681"/>
+  <nd ref="1792200373"/>
+  <nd ref="3741138645"/>
+  <nd ref="3741339527"/>
+  <nd ref="3741339424"/>
+  <nd ref="1792200390"/>
+  <nd ref="3373550543"/>
+  <nd ref="3741197430"/>
+  <nd ref="1792200398"/>
+  <nd ref="1792200382"/>
+  <nd ref="3373578168"/>
+  <nd ref="3373550540"/>
+  <nd ref="3741318976"/>
+  <nd ref="3373550541"/>
+  <nd ref="3373550542"/>
+ </way>
+ <way id="330393441" visible="true" version="6" changeset="42073887" timestamp="2016-09-11T09:10:22Z" user="Hjart" uid="207581">
+  <nd ref="3373550548"/>
+  <nd ref="3373550547"/>
+  <nd ref="3373550546"/>
+  <nd ref="3373550545"/>
+  <nd ref="3373550544"/>
+  <nd ref="3741339532"/>
+  <nd ref="1792200379"/>
+  <nd ref="3741339531"/>
+  <nd ref="3741339530"/>
+  <nd ref="3741339528"/>
+  <nd ref="3741339527"/>
+  <nd ref="3741138645"/>
+  <nd ref="1792200373"/>
+  <nd ref="3741138681"/>
+  <nd ref="1792200369"/>
+  <nd ref="3373550548"/>
+  <tag k="building:part" v="yes"/>
+ </way>
+ <relation id="6578611" visible="true" version="1" changeset="42073887" timestamp="2016-09-11T09:10:21Z" user="Hjart" uid="207581">
+  <member type="way" ref="441887338" role="outer"/>
+  <member type="way" ref="441887339" role="inner"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="Friis"/>
+  <tag k="shop" v="mall"/>
+  <tag k="type" v="multipolygon"/>
+  <tag k="website" v="http://friisaalborg.dk"/>
+  <tag k="wikidata" v="Q12312976"/>
+ </relation>
+</osm>

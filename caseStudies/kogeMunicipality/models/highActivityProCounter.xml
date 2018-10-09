@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nta PUBLIC '-//Uppaal Team//DTD Flat System 1.1//EN' 'http://www.it.uu.se/research/group/darts/uppaal/flat-1_2.dtd'>
+<nta>
+	<declaration>// Place global declarations here.
+//align with sumo model
+//                                              North
+//                				      	|	     |	       |
+// 				                        |	B2   |	       |
+//                     				 	|	 |   |	       |
+//                     					|	 v   | 	       |
+// --------------------------------------                  ------------------------------------- 
+//                                                                        D13
+//                                                              A2  ^&lt;............... 
+//                                                    
+//                                                          ---------------------------------------      
+//                                                                   v---------     D12        
+//
+// --------------------------------------                  ---------------------------------------
+// 		   		      D5           ^     	     critical Cij i,j \in {1,...,8}
+//    	 straight     A1  .........
+// West	--------------------------------    							East
+//                    D3
+// 	                    -----------&gt;v    		     .
+// -------------------------------------|	     |	  ^    |------------------------------------
+//                				      	|	     |	  |    |
+// 				                        |	     |	  B1   |
+//                     				 	|	     |	       |
+//                     					|	     | 	       |
+// 					                             South
+
+//we consider 6 signals (name,id)  (A1_0,1) (A1_1,2) (A2_0,3) (A2_1,4) (B1,5) (B2,6)
+int totalJammedCars = 3000;
+int curStep = 0;
+clock x;
+
+
+//CONSTANTS
+const int NrAvenues = 6;
+const int Signals_AV_West = 2;
+const int Signals_AV_North = 1;
+const int Signals_AV_South = 1;
+const int Signals_AV_East = 2; 
+const int NrOfSignals = Signals_AV_West + Signals_AV_North + Signals_AV_South + Signals_AV_East;
+const int NrOfSignalConfs = 2*2*2*2*2*2-1; //2^NS 
+const int NrOfMaxCompSignalConfs = 2; 
+const int YELLOW = 8;
+const int Horizon = 20; //90 step simulations = 90 secs 
+const int stepsToCross = 1; // a car needs to steps (2secs) to cross in average
+const int deconstructJamRate = 1;
+
+
+
+//TYPES
+typedef int[0,NrOfSignalConfs] signal_conf_t;
+typedef int[1,NrOfSignals] signal_t;
+typedef int[0,NrOfMaxCompSignalConfs-1] max_signal_conf_t;
+typedef int[4,9] del_choice_t; //this means delay \in [MIN_GREEN*delay_multiplier,9*delay]
+
+broadcast chan green[max_signal_conf_t];
+broadcast chan yellow[max_signal_conf_t];
+broadcast chan red[max_signal_conf_t];
+
+
+const signal_conf_t maximal_comp_comb[max_signal_conf_t] = {
+15, 48  //15 is lane A{1,2}_{0,1} enabled, 48 is lane B{1,2} ebabled
+};
+
+
+//ON THE FLY ARGUMENTS
+//signal should be updated on the fly
+bool signal[signal_t] = {
+false, false, false, false, false, false
+};
+
+//this is the current state of the system, we let if flow for MIN_GREEN
+
+
+
+
+//to replace by python script
+const max_signal_conf_t initialPhase = 1; 
+int carsAreal[signal_t] = {0,  0,  0,  0, 1, 2};
+int carsJammed[signal_t] = {0,  0, 0, 0, 0,  0};
+//const int firstDelay = MIN_GREEN;
+ 
+//PLACE HOLDERS
+//HOLDER_INITIAL_PHASE
+//HOLDER_CARS_AREAL
+//HOLDER_CARS_JAMMED
+//first delay is dinamic in contrast to the 15 min for the floor heating, a yellow phase has to follow. i.e. fd = delay + yellow
+//HOLDER_FIRST_DELAY
+//HOLDER_SIM_STEP</declaration>
+	<template>
+		<name x="5" y="5">trafficLights</name>
+		<declaration>// Place local declarations here.
+
+
+
+void selectPhase(max_signal_conf_t ms_conf) {
+  signal_conf_t s_conf = maximal_comp_comb[ms_conf];  
+  for (i:signal_t)    {
+      signal[i] = (s_conf &amp; (1&lt;&lt;(i-1)))==(1&lt;&lt;(i-1));
+  }
+}
+
+void complementPhase(max_signal_conf_t ms_conf) {
+    if (ms_conf == 0)
+        selectPhase(1);
+    if (ms_conf == 1)
+        selectPhase(0);
+}
+
+
+void initialize() {
+    selectPhase(initialPhase);
+}
+
+
+void normalize() {
+    for (i:signal_t) {
+        if (carsJammed[i] &lt; 0)
+            carsJammed[i] = 0;
+    }
+}
+
+void flow(int delaySteps) {
+    int carsPassed = 0;
+    int stepCounter = 0;
+    int incCars = 0;
+    const int upperStep = curStep + delaySteps;
+    int j;
+    for (j=curStep; j&lt;=upperStep; j++) {
+        if (stepCounter &gt; stepsToCross) {
+            carsPassed = 1;
+            stepCounter = 0;
+        }        
+        for (i:signal_t)    {
+            if (signal[i]) {
+                if (carsJammed[i]&gt;0)   
+                    carsJammed[i] = carsJammed[i] - carsPassed;    
+            }
+            totalJammedCars = totalJammedCars + carsJammed[i];
+          }
+        curStep++;
+        stepCounter++;        
+    }    
+    // do something like if enabled carsPassing = carsPassing - carsPassed + incomming(i) otherwise carsPassing = carsPassing + incomming(i) keep value &gt;= 0
+    // for carsJammed do if not enabled carsJammed = carsJammed + incomming(i,timetojam!) if enabled carsJammed = 0
+}
+
+
+void goYellow(int delaySteps) {
+    const int upperStep = curStep + delaySteps;
+    int j;
+    complementPhase(initialPhase);
+    for (i:signal_t) {
+        carsJammed[i] = carsJammed[i] + carsAreal[i]; 
+        carsAreal[i] = 0;       
+    }
+    for (j=curStep; j&lt;=upperStep; j++) {
+        for (i:signal_t) {
+            totalJammedCars = totalJammedCars + carsJammed[i];
+        }    
+        curStep++;
+    }    
+}
+
+void goGreen() {
+    for (i:signal_t) {
+        if (signal[i]) {
+            carsAreal[i] = 0;
+        }
+        carsJammed[i] = carsJammed[i] + carsAreal[i]; 
+        carsAreal[i] = 0;
+    }
+}
+
+</declaration>
+		<location id="id0" x="-195" y="0">
+			<urgent/>
+		</location>
+		<location id="id1" x="17" y="0">
+			<name x="34" y="-8">Yellow</name>
+			<urgent/>
+		</location>
+		<location id="id2" x="25" y="136">
+			<name x="15" y="102">GreenAgain</name>
+			<urgent/>
+		</location>
+		<location id="id3" x="-391" y="0">
+			<urgent/>
+		</location>
+		<location id="id4" x="17" y="-170">
+			<name x="8" y="-204">Green</name>
+			<urgent/>
+		</location>
+		<location id="id5" x="-391" y="136">
+			<name x="-433" y="102">DONE</name>
+		</location>
+		<init ref="id3"/>
+		<transition>
+			<source ref="id0"/>
+			<target ref="id5"/>
+			<label kind="guard" x="-373" y="34">curStep &gt;= Horizon</label>
+		</transition>
+		<transition controllable="false">
+			<source ref="id1"/>
+			<target ref="id4"/>
+		</transition>
+		<transition controllable="false">
+			<source ref="id2"/>
+			<target ref="id0"/>
+			<label kind="assignment" x="-127" y="204">flow(5)</label>
+			<nail x="25" y="229"/>
+			<nail x="-195" y="229"/>
+		</transition>
+		<transition controllable="false">
+			<source ref="id4"/>
+			<target ref="id0"/>
+			<label kind="assignment" x="-170" y="-127">flow(10)</label>
+			<nail x="-34" y="-170"/>
+		</transition>
+		<transition controllable="false">
+			<source ref="id3"/>
+			<target ref="id0"/>
+			<label kind="assignment" x="-331" y="-25">initialize()</label>
+		</transition>
+		<transition>
+			<source ref="id0"/>
+			<target ref="id2"/>
+			<label kind="guard" x="-178" y="93">curStep &lt; Horizon</label>
+			<label kind="assignment" x="-153" y="76">goGreen()</label>
+		</transition>
+		<transition>
+			<source ref="id0"/>
+			<target ref="id1"/>
+			<label kind="guard" x="-170" y="8">curStep &lt; Horizon</label>
+			<label kind="assignment" x="-144" y="-25">goYellow(8)</label>
+		</transition>
+	</template>
+	<system>
+// List one or more processes to be composed into a system.
+system trafficLights;
+    </system>
+	<queries>
+		<query>
+			<formula></formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>strategy Opt =minE (totalJammedCars) [&lt;=2*Horizon]: &lt;&gt; trafficLights.DONE</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>simulate 1 [&lt;=Horizon] { signal[1], 2+signal[2], 4+signal[3], 6+signal[4], 8+signal[5], 10+signal[6] } under Opt</formula>
+			<comment></comment>
+		</query>
+	</queries>
+</nta>

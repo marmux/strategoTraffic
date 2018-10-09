@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu 06 Oct 2016 07:08:39 PM CEST by Netedit Version 0.25.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit.exeConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/muniz/repos/muniz/DiCyPS/models/sumo/nylandsvej/maps/nylandsvej.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/muniz/repos/muniz/DiCyPS/models/sumo/nylandsvej/maps/nylandsvej.net.xml"/>
+        <plain-output-prefix value="/home/muniz/repos/muniz/DiCyPS/models/sumo/nylandsvej/maps/nylandsvejPlain"/>
+    </output>
+
+    <processing>
+        <no-turnarounds value="true"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+        <junctions.corner-detail value="0"/>
+    </processing>
+
+</configuration>
+-->
+
+<tlLogics version="0.25" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tllogic_file.xsd">
+    <tlLogic id="24965384" type="static" programID="0" offset="0">
+        <phase duration="86" state="GgGg"/>
+        <phase duration="4" state="yyyy"/>
+    </tlLogic>
+    <tlLogic id="288206447" type="static" programID="0" offset="0">
+        <phase duration="86" state="G"/>
+        <phase duration="4" state="y"/>
+    </tlLogic>
+    <tlLogic id="289807435" type="static" programID="0" offset="0">
+        <phase duration="86" state="GgGg"/>
+        <phase duration="4" state="yyyy"/>
+    </tlLogic>
+
+    <tlLogic id="1693132977" type="static" programID="0" offset="0">
+        <phase duration="123" state="GGGGGGGGGG"/>
+        <phase duration="4" state="yyyyyyyyyy"/>
+        <phase duration="41" state="GGGGGGGGGG"/>
+        <phase duration="4" state="yyyyyyyyyy"/>
+    </tlLogic>
+    
+
+    <connection from="-26446721#1" to="-26446721#0" fromLane="0" toLane="0" tl="24965384" linkIndex="0"/>
+    <connection from="-26446721#1" to="26446721#1" fromLane="0" toLane="0" tl="24965384" linkIndex="1"/>
+    <connection from="-366845096#5" to="-366845096#4" fromLane="0" toLane="0" tl="289807435" linkIndex="0"/>
+    <connection from="-366845096#5" to="366845096#5" fromLane="0" toLane="0" tl="289807435" linkIndex="1"/>
+    <connection from="26446721#0" to="26446721#1" fromLane="0" toLane="0" tl="24965384" linkIndex="2"/>
+    <connection from="26446721#0" to="-26446721#0" fromLane="0" toLane="0" tl="24965384" linkIndex="3"/>
+    <connection from="366845096#4" to="366845096#5" fromLane="0" toLane="0" tl="289807435" linkIndex="2"/>
+    <connection from="366845096#4" to="-366845096#4" fromLane="0" toLane="0" tl="289807435" linkIndex="3"/>
+    <connection from="366845096#5" to="-366845096#5" fromLane="0" toLane="0" tl="288206447" linkIndex="0"/>
+</tlLogics>

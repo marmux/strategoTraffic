@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.5.3 (21777 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="55.4997600" minlon="12.1879300" maxlat="55.5012300" maxlon="12.1911700"/>
+ <node id="24965384" visible="true" version="4" changeset="2300807" timestamp="2009-08-29T13:19:14Z" user="sfromis" uid="49560" lat="55.4932465" lon="12.1848077">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="288204511" visible="true" version="2" changeset="671503" timestamp="2009-02-25T23:09:12Z" user="Johnny Carlsen" uid="38985" lat="55.4925181" lon="12.1844029"/>
+ <node id="288204869" visible="true" version="3" changeset="671503" timestamp="2009-02-25T23:09:13Z" user="Johnny Carlsen" uid="38985" lat="55.4958944" lon="12.1863575"/>
+ <node id="288204911" visible="true" version="3" changeset="671503" timestamp="2009-02-25T23:09:13Z" user="Johnny Carlsen" uid="38985" lat="55.4947425" lon="12.1856861"/>
+ <node id="288204943" visible="true" version="3" changeset="671503" timestamp="2009-02-25T23:09:12Z" user="Johnny Carlsen" uid="38985" lat="55.4939701" lon="12.1852359"/>
+ <node id="288204998" visible="true" version="3" changeset="671503" timestamp="2009-02-25T23:09:12Z" user="Johnny Carlsen" uid="38985" lat="55.4944315" lon="12.1855048"/>
+ <node id="288205069" visible="true" version="3" changeset="671503" timestamp="2009-02-25T23:09:13Z" user="Johnny Carlsen" uid="38985" lat="55.4963981" lon="12.1866510"/>
+ <node id="288205049" visible="true" version="5" changeset="17272661" timestamp="2013-08-08T21:44:29Z" user="Hjart" uid="207581" lat="55.4951893" lon="12.1859509"/>
+ <node id="288206088" visible="true" version="2" changeset="671503" timestamp="2009-02-25T23:09:13Z" user="Johnny Carlsen" uid="38985" lat="55.4996887" lon="12.1885691"/>
+ <node id="288206158" visible="true" version="2" changeset="671503" timestamp="2009-02-25T23:09:13Z" user="Johnny Carlsen" uid="38985" lat="55.4974785" lon="12.1872808"/>
+ <node id="288206445" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:12Z" user="Hjart" uid="207581" lat="55.5001540" lon="12.1904612"/>
+ <node id="288206446" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:12Z" user="Hjart" uid="207581" lat="55.4998480" lon="12.1916567">
+  <tag k="traffic_calming" v="island"/>
+ </node>
+ <node id="288206444" visible="true" version="2" changeset="12244005" timestamp="2012-07-16T12:30:21Z" user="Niels Beck" uid="154813" lat="55.5023572" lon="12.1852602"/>
+ <node id="288206709" visible="true" version="3" changeset="295137" timestamp="2009-02-09T03:39:18Z" user="Johnny Carlsen" uid="38985" lat="55.5013794" lon="12.1877337"/>
+ <node id="288206710" visible="true" version="3" changeset="295137" timestamp="2009-02-09T03:39:18Z" user="Johnny Carlsen" uid="38985" lat="55.5000960" lon="12.1932612"/>
+ <node id="288206712" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:12Z" user="Hjart" uid="207581" lat="55.5062221" lon="12.2005826"/>
+ <node id="288206859" visible="true" version="4" changeset="295137" timestamp="2009-02-09T03:39:18Z" user="Johnny Carlsen" uid="38985" lat="55.4978159" lon="12.1843176"/>
+ <node id="288206861" visible="true" version="8" changeset="675906" timestamp="2008-11-04T00:05:32Z" user="Johnny Carlsen" uid="38985" lat="55.5038418" lon="12.1830669"/>
+ <node id="288207175" visible="true" version="8" changeset="39035357" timestamp="2016-05-02T10:46:34Z" user="Hjart" uid="207581" lat="55.5062760" lon="12.1997783"/>
+ <node id="288207167" visible="true" version="3" changeset="295137" timestamp="2009-02-09T03:39:18Z" user="Johnny Carlsen" uid="38985" lat="55.4996682" lon="12.1954928"/>
+ <node id="288207168" visible="true" version="4" changeset="295137" timestamp="2009-02-09T03:39:18Z" user="Johnny Carlsen" uid="38985" lat="55.4968783" lon="12.1935138"/>
+ <node id="288207227" visible="true" version="1" changeset="262099" timestamp="2008-08-15T16:35:24Z" user="Johnny Carlsen" uid="38985" lat="55.5031538" lon="12.1838026"/>
+ <node id="288207335" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:18Z" user="Johnny Carlsen" uid="38985" lat="55.5000474" lon="12.1910982"/>
+ <node id="288207337" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:18Z" user="Johnny Carlsen" uid="38985" lat="55.4996585" lon="12.1930552"/>
+ <node id="288207343" visible="true" version="7" changeset="675906" timestamp="2008-11-04T00:05:32Z" user="Johnny Carlsen" uid="38985" lat="55.5069721" lon="12.1900535"/>
+ <node id="288207344" visible="true" version="8" changeset="39035357" timestamp="2016-05-02T10:46:34Z" user="Hjart" uid="207581" lat="55.5058841" lon="12.1867159"/>
+ <node id="288207572" visible="true" version="8" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4990897" lon="12.1752796"/>
+ <node id="288207573" visible="true" version="10" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.5021841" lon="12.1801916"/>
+ <node id="288208029" visible="true" version="3" changeset="295137" timestamp="2009-02-09T03:39:18Z" user="Johnny Carlsen" uid="38985" lat="55.4944417" lon="12.1922312"/>
+ <node id="288208030" visible="true" version="3" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4842152" lon="12.1873045"/>
+ <node id="288208032" visible="true" version="3" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4827950" lon="12.1838884"/>
+ <node id="288208035" visible="true" version="8" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4836656" lon="12.1720781"/>
+ <node id="288208038" visible="true" version="8" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4862286" lon="12.1719408"/>
+ <node id="288208041" visible="true" version="8" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4893361" lon="12.1722927"/>
+ <node id="288208042" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4887428" lon="12.1770735"/>
+ <node id="288208044" visible="true" version="8" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4963087" lon="12.1736832"/>
+ <node id="288208894" visible="true" version="3" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4844681" lon="12.1846438"/>
+ <node id="288208895" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4835586" lon="12.1781550"/>
+ <node id="288208896" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4833155" lon="12.1746445"/>
+ <node id="288208897" visible="true" version="8" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4843271" lon="12.1723786"/>
+ <node id="288208898" visible="true" version="8" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4861459" lon="12.1723474"/>
+ <node id="288208900" visible="true" version="8" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4879064" lon="12.1721468"/>
+ <node id="288208901" visible="true" version="8" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4876438" lon="12.1744127"/>
+ <node id="288208904" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4939555" lon="12.1807814"/>
+ <node id="288208906" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4947383" lon="12.1780691"/>
+ <node id="288208908" visible="true" version="9" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.5006431" lon="12.1777626"/>
+ <node id="288208909" visible="true" version="3" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.5003076" lon="12.1842857"/>
+ <node id="288208911" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:18Z" user="Johnny Carlsen" uid="38985" lat="55.4975339" lon="12.1830902"/>
+ <node id="288208912" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:18Z" user="Johnny Carlsen" uid="38985" lat="55.4958235" lon="12.1813989"/>
+ <node id="288208913" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:18Z" user="Johnny Carlsen" uid="38985" lat="55.4944417" lon="12.1803866"/>
+ <node id="288208914" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:18Z" user="Johnny Carlsen" uid="38985" lat="55.4943056" lon="12.1810217"/>
+ <node id="288208915" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:18Z" user="Johnny Carlsen" uid="38985" lat="55.4961823" lon="12.1825667"/>
+ <node id="290085421" visible="true" version="3" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4832143" lon="12.1807404"/>
+ <node id="290085424" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4832661" lon="12.1804519"/>
+ <node id="290085543" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4827700" lon="12.1802373"/>
+ <node id="293519902" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4830702" lon="12.1781100"/>
+ <node id="293519903" visible="true" version="2" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4834204" lon="12.1782988"/>
+ <node id="295793388" visible="true" version="1" changeset="601183" timestamp="2008-09-11T00:39:37Z" user="Johnny Carlsen" uid="38985" lat="55.4997378" lon="12.1883150"/>
+ <node id="295794845" visible="true" version="3" changeset="34493273" timestamp="2015-10-07T15:24:14Z" user="Hjart" uid="207581" lat="55.5000080" lon="12.1893124"/>
+ <node id="295794873" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:14Z" user="Hjart" uid="207581" lat="55.4995813" lon="12.1890363"/>
+ <node id="298126997" visible="true" version="8" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.4989658" lon="12.1761060"/>
+ <node id="298126999" visible="true" version="8" changeset="295137" timestamp="2009-02-09T03:39:17Z" user="Johnny Carlsen" uid="38985" lat="55.5001423" lon="12.1770502"/>
+ <node id="340826105" visible="true" version="5" changeset="28293823" timestamp="2015-01-20T23:52:16Z" user="AWSbot" uid="2184056" lat="55.5001808" lon="12.1893399">
+  <tag k="addr:city" v="Køge"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="3A"/>
+  <tag k="addr:postcode" v="4600"/>
+  <tag k="addr:street" v="Kibækvænge"/>
+  <tag k="osak:house_no" v="3A"/>
+  <tag k="osak:identifier" v="0A3F5081967732B8E0440003BA298018"/>
+  <tag k="osak:municipality_name" v="Køge"/>
+  <tag k="osak:municipality_no" v="259"/>
+  <tag k="osak:revision" v="2004-10-15T00:00:00"/>
+  <tag k="osak:street_name" v="Kibækvænge"/>
+  <tag k="osak:street_no" v="4436"/>
+  <tag k="source" v="OSAK (2010)"/>
+ </node>
+ <node id="340826106" visible="true" version="5" changeset="28293823" timestamp="2015-01-20T23:52:28Z" user="AWSbot" uid="2184056" lat="55.5002745" lon="12.1894427">
+  <tag k="addr:city" v="Køge"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="3B"/>
+  <tag k="addr:postcode" v="4600"/>
+  <tag k="addr:street" v="Kibækvænge"/>
+  <tag k="osak:house_no" v="3B"/>
+  <tag k="osak:identifier" v="0A3F5081967832B8E0440003BA298018"/>
+  <tag k="osak:municipality_name" v="Køge"/>
+  <tag k="osak:municipality_no" v="259"/>
+  <tag k="osak:revision" v="2004-10-15T00:00:00"/>
+  <tag k="osak:street_name" v="Kibækvænge"/>
+  <tag k="osak:street_no" v="4436"/>
+  <tag k="source" v="OSAK (2010)"/>
+ </node>
+ <node id="340826107" visible="true" version="5" changeset="28293823" timestamp="2015-01-20T23:56:20Z" user="AWSbot" uid="2184056" lat="55.4998080" lon="12.1896668">
+  <tag k="addr:city" v="Køge"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="4"/>
+  <tag k="addr:postcode" v="4600"/>
+  <tag k="addr:street" v="Kibækvænge"/>
+  <tag k="osak:house_no" v="4"/>
+  <tag k="osak:identifier" v="0A3F5081967932B8E0440003BA298018"/>
+  <tag k="osak:municipality_name" v="Køge"/>
+  <tag k="osak:municipality_no" v="259"/>
+  <tag k="osak:revision" v="2004-10-15T00:00:00"/>
+  <tag k="osak:street_name" v="Kibækvænge"/>
+  <tag k="osak:street_no" v="4436"/>
+  <tag k="source" v="OSAK (2010)"/>
+ </node>
+ <node id="340826108" visible="true" version="5" changeset="28293823" timestamp="2015-01-21T00:26:45Z" user="AWSbot" uid="2184056" lat="55.5001559" lon="12.1896534">
+  <tag k="addr:city" v="Køge"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="5"/>
+  <tag k="addr:postcode" v="4600"/>
+  <tag k="addr:street" v="Kibækvænge"/>
+  <tag k="osak:house_no" v="5"/>
+  <tag k="osak:identifier" v="0A3F5081967A32B8E0440003BA298018"/>
+  <tag k="osak:municipality_name" v="Køge"/>
+  <tag k="osak:municipality_no" v="259"/>
+  <tag k="osak:revision" v="2004-10-15T00:00:00"/>
+  <tag k="osak:street_name" v="Kibækvænge"/>
+  <tag k="osak:street_no" v="4436"/>
+  <tag k="source" v="OSAK (2010)"/>
+ </node>
+ <node id="352862964" visible="true" version="3" changeset="671503" timestamp="2009-02-25T23:09:23Z" user="Johnny Carlsen" uid="38985" lat="55.4940852" lon="12.1853030"/>
+ <node id="540637285" visible="true" version="3" changeset="3295468" timestamp="2009-12-05T14:24:40Z" user="Claus Hindsgaul" uid="185440" lat="55.4846067" lon="12.1874931"/>
+ <node id="540637284" visible="true" version="3" changeset="3295468" timestamp="2009-12-05T14:24:40Z" user="Claus Hindsgaul" uid="185440" lat="55.4855296" lon="12.1879377"/>
+ <node id="540637281" visible="true" version="3" changeset="3295468" timestamp="2009-12-05T14:24:41Z" user="Claus Hindsgaul" uid="185440" lat="55.4860156" lon="12.1881718"/>
+ <node id="540637278" visible="true" version="3" changeset="3295468" timestamp="2009-12-05T14:24:41Z" user="Claus Hindsgaul" uid="185440" lat="55.4869785" lon="12.1886356"/>
+ <node id="540637275" visible="true" version="3" changeset="3295468" timestamp="2009-12-05T14:24:42Z" user="Claus Hindsgaul" uid="185440" lat="55.4881585" lon="12.1892041"/>
+ <node id="540637274" visible="true" version="3" changeset="3295468" timestamp="2009-12-05T14:24:42Z" user="Claus Hindsgaul" uid="185440" lat="55.4885568" lon="12.1893960"/>
+ <node id="540637271" visible="true" version="3" changeset="3295468" timestamp="2009-12-05T14:24:43Z" user="Claus Hindsgaul" uid="185440" lat="55.4899327" lon="12.1900588"/>
+ <node id="540637270" visible="true" version="3" changeset="3295468" timestamp="2009-12-05T14:24:43Z" user="Claus Hindsgaul" uid="185440" lat="55.4913077" lon="12.1907212"/>
+ <node id="540637265" visible="true" version="3" changeset="3295468" timestamp="2009-12-05T14:24:44Z" user="Claus Hindsgaul" uid="185440" lat="55.4922556" lon="12.1911779"/>
+ <node id="540637259" visible="true" version="3" changeset="3295468" timestamp="2009-12-05T14:24:45Z" user="Claus Hindsgaul" uid="185440" lat="55.4938375" lon="12.1919401"/>
+ <node id="540637289" visible="true" version="3" changeset="3295468" timestamp="2009-12-05T14:24:45Z" user="Claus Hindsgaul" uid="185440" lat="55.4953092" lon="12.1926878"/>
+ <node id="540637286" visible="true" version="3" changeset="3295468" timestamp="2009-12-05T14:24:45Z" user="Claus Hindsgaul" uid="185440" lat="55.4965521" lon="12.1933421"/>
+ <node id="540637372" visible="true" version="3" changeset="3295468" timestamp="2009-12-05T14:24:50Z" user="Claus Hindsgaul" uid="185440" lat="55.5034224" lon="12.1984311"/>
+ <node id="540637381" visible="true" version="3" changeset="3295468" timestamp="2009-12-05T14:24:51Z" user="Claus Hindsgaul" uid="185440" lat="55.5045866" lon="12.1993423"/>
+ <node id="540637385" visible="true" version="3" changeset="3295468" timestamp="2009-12-05T14:24:51Z" user="Claus Hindsgaul" uid="185440" lat="55.5056744" lon="12.2001937"/>
+ <node id="340822125" visible="true" version="5" changeset="28293823" timestamp="2015-01-21T00:23:22Z" user="AWSbot" uid="2184056" lat="55.4999924" lon="12.1902445">
+  <tag k="addr:city" v="Køge"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="5"/>
+  <tag k="addr:postcode" v="4600"/>
+  <tag k="addr:street" v="Egebækvænge"/>
+  <tag k="osak:house_no" v="5"/>
+  <tag k="osak:identifier" v="0A3F508189C032B8E0440003BA298018"/>
+  <tag k="osak:municipality_name" v="Køge"/>
+  <tag k="osak:municipality_no" v="259"/>
+  <tag k="osak:revision" v="2004-10-15T00:00:00"/>
+  <tag k="osak:street_name" v="Egebækvænge"/>
+  <tag k="osak:street_no" v="1811"/>
+  <tag k="source" v="OSAK (2010)"/>
+ </node>
+ <node id="340828665" visible="true" version="5" changeset="28293823" timestamp="2015-01-20T21:57:44Z" user="AWSbot" uid="2184056" lat="55.5000777" lon="12.1881821">
+  <tag k="addr:city" v="Køge"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="171"/>
+  <tag k="addr:postcode" v="4600"/>
+  <tag k="addr:street" v="Nylandsvej"/>
+  <tag k="osak:house_no" v="171"/>
+  <tag k="osak:identifier" v="0A3F5081A01932B8E0440003BA298018"/>
+  <tag k="osak:municipality_name" v="Køge"/>
+  <tag k="osak:municipality_no" v="259"/>
+  <tag k="osak:revision" v="2004-10-15T00:00:00"/>
+  <tag k="osak:street_name" v="Nylandsvej"/>
+  <tag k="osak:street_no" v="6103"/>
+  <tag k="source" v="OSAK (2010)"/>
+ </node>
+ <node id="340828671" visible="true" version="5" changeset="28293823" timestamp="2015-01-20T22:03:32Z" user="AWSbot" uid="2184056" lat="55.5003191" lon="12.1886902">
+  <tag k="addr:city" v="Køge"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="183"/>
+  <tag k="addr:postcode" v="4600"/>
+  <tag k="addr:street" v="Nylandsvej"/>
+  <tag k="osak:house_no" v="183"/>
+  <tag k="osak:identifier" v="0A3F5081A01F32B8E0440003BA298018"/>
+  <tag k="osak:municipality_name" v="Køge"/>
+  <tag k="osak:municipality_no" v="259"/>
+  <tag k="osak:revision" v="2007-12-13T00:00:00"/>
+  <tag k="osak:street_name" v="Nylandsvej"/>
+  <tag k="osak:street_no" v="6103"/>
+  <tag k="source" v="OSAK (2010)"/>
+ </node>
+ <node id="340822127" visible="true" version="5" changeset="28297458" timestamp="2015-01-21T01:09:30Z" user="AWSbot" uid="2184056" lat="55.4998902" lon="12.1906403">
+  <tag k="addr:city" v="Køge"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="7"/>
+  <tag k="addr:postcode" v="4600"/>
+  <tag k="addr:street" v="Egebækvænge"/>
+  <tag k="osak:house_no" v="7"/>
+  <tag k="osak:identifier" v="0A3F508189C232B8E0440003BA298018"/>
+  <tag k="osak:municipality_name" v="Køge"/>
+  <tag k="osak:municipality_no" v="259"/>
+  <tag k="osak:revision" v="2004-10-15T00:00:00"/>
+  <tag k="osak:street_name" v="Egebækvænge"/>
+  <tag k="osak:street_no" v="1811"/>
+  <tag k="source" v="OSAK (2010)"/>
+ </node>
+ <node id="1693132974" visible="true" version="1" changeset="11114330" timestamp="2012-03-27T11:46:53Z" user="mok0" uid="149691" lat="55.5000301" lon="12.1888554"/>
+ <node id="1693132975" visible="true" version="1" changeset="11114330" timestamp="2012-03-27T11:46:53Z" user="mok0" uid="149691" lat="55.5003058" lon="12.1891045"/>
+ <node id="1693132980" visible="true" version="1" changeset="11114330" timestamp="2012-03-27T11:46:53Z" user="mok0" uid="149691" lat="55.5010990" lon="12.1899759"/>
+ <node id="1693132983" visible="true" version="1" changeset="11114330" timestamp="2012-03-27T11:46:53Z" user="mok0" uid="149691" lat="55.5045917" lon="12.1931170"/>
+ <node id="1693132994" visible="true" version="1" changeset="11114330" timestamp="2012-03-27T11:46:53Z" user="mok0" uid="149691" lat="55.5050724" lon="12.1936550"/>
+ <node id="1693132995" visible="true" version="1" changeset="11114330" timestamp="2012-03-27T11:46:53Z" user="mok0" uid="149691" lat="55.5066682" lon="12.1950516"/>
+ <node id="288206448" visible="true" version="3" changeset="11114330" timestamp="2012-03-27T11:46:57Z" user="mok0" uid="149691" lat="55.5015171" lon="12.1903557"/>
+ <node id="1693132977" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:09Z" user="Hjart" uid="207581" lat="55.5005707" lon="12.1894151"/>
+ <node id="1825685652" visible="true" version="1" changeset="12220511" timestamp="2012-07-14T20:03:00Z" user="Niels Beck" uid="154813" lat="55.4968839" lon="12.1869342"/>
+ <node id="1827464008" visible="true" version="1" changeset="12244005" timestamp="2012-07-16T12:17:41Z" user="Niels Beck" uid="154813" lat="55.4946693" lon="12.1813211"/>
+ <node id="1827463981" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:09Z" user="Hjart" uid="207581" lat="55.4954087" lon="12.1819091"/>
+ <node id="2076138896" visible="true" version="1" changeset="14342602" timestamp="2012-12-20T13:37:37Z" user="AGdk" uid="596531" lat="55.4893058" lon="12.1723306"/>
+ <node id="2076145781" visible="true" version="1" changeset="14342602" timestamp="2012-12-20T13:45:14Z" user="AGdk" uid="596531" lat="55.4898152" lon="12.1778363"/>
+ <node id="2126263232" visible="true" version="1" changeset="14766728" timestamp="2013-01-24T13:46:56Z" user="AGdk" uid="596531" lat="55.5006458" lon="12.1880950"/>
+ <node id="2126263280" visible="true" version="1" changeset="14766728" timestamp="2013-01-24T13:46:58Z" user="AGdk" uid="596531" lat="55.5006519" lon="12.1879582"/>
+ <node id="2126263284" visible="true" version="1" changeset="14766728" timestamp="2013-01-24T13:46:58Z" user="AGdk" uid="596531" lat="55.5009755" lon="12.1879501"/>
+ <node id="2126263286" visible="true" version="1" changeset="14766728" timestamp="2013-01-24T13:46:58Z" user="AGdk" uid="596531" lat="55.4981577" lon="12.1876767"/>
+ <node id="2126263223" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:10Z" user="Hjart" uid="207581" lat="55.4978717" lon="12.1855753"/>
+ <node id="2126263228" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:10Z" user="Hjart" uid="207581" lat="55.4981150" lon="12.1857850"/>
+ <node id="2126263229" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:10Z" user="Hjart" uid="207581" lat="55.4979967" lon="12.1856974"/>
+ <node id="2126263230" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:10Z" user="Hjart" uid="207581" lat="55.4989218" lon="12.1866252"/>
+ <node id="2126263231" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:10Z" user="Hjart" uid="207581" lat="55.5009996" lon="12.1879035"/>
+ <node id="2126263235" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:10Z" user="Hjart" uid="207581" lat="55.4994734" lon="12.1870815"/>
+ <node id="2126263236" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:10Z" user="Hjart" uid="207581" lat="55.4989229" lon="12.1881222"/>
+ <node id="3072211448" visible="true" version="2" changeset="27719765" timestamp="2014-12-26T22:28:28Z" user="AWSbot" uid="2184056" lat="55.5007020" lon="12.1882210">
+  <tag k="addr:city" v="Køge"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="185"/>
+  <tag k="addr:postcode" v="4600"/>
+  <tag k="addr:street" v="Nylandsvej"/>
+  <tag k="osak:identifier" v="0E9EA084EF6F458E8A862D304D4BA314"/>
+  <tag k="osak:municipality_no" v="0259"/>
+  <tag k="osak:revision" v="2004-10-15T12:00:00"/>
+  <tag k="source" v="AWS Web API"/>
+ </node>
+ <node id="340826103" visible="true" version="5" changeset="28293823" timestamp="2015-01-20T20:50:51Z" user="AWSbot" uid="2184056" lat="55.4998730" lon="12.1890290">
+  <tag k="addr:city" v="Køge"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="1"/>
+  <tag k="addr:postcode" v="4600"/>
+  <tag k="addr:street" v="Kibækvænge"/>
+  <tag k="osak:house_no" v="1"/>
+  <tag k="osak:identifier" v="0A3F5081967532B8E0440003BA298018"/>
+  <tag k="osak:municipality_name" v="Køge"/>
+  <tag k="osak:municipality_no" v="259"/>
+  <tag k="osak:revision" v="2004-10-15T00:00:00"/>
+  <tag k="osak:street_name" v="Kibækvænge"/>
+  <tag k="osak:street_no" v="4436"/>
+  <tag k="source" v="OSAK (2010)"/>
+ </node>
+ <node id="340826109" visible="true" version="5" changeset="28297458" timestamp="2015-01-21T00:52:52Z" user="AWSbot" uid="2184056" lat="55.5000822" lon="12.1898650">
+  <tag k="addr:city" v="Køge"/>
+  <tag k="addr:country" v="DK"/>
+  <tag k="addr:housenumber" v="6"/>
+  <tag k="addr:postcode" v="4600"/>
+  <tag k="addr:street" v="Kibækvænge"/>
+  <tag k="osak:house_no" v="6"/>
+  <tag k="osak:identifier" v="0A3F5081967B32B8E0440003BA298018"/>
+  <tag k="osak:municipality_name" v="Køge"/>
+  <tag k="osak:municipality_no" v="259"/>
+  <tag k="osak:revision" v="2004-10-15T00:00:00"/>
+  <tag k="osak:street_name" v="Kibækvænge"/>
+  <tag k="osak:street_no" v="4436"/>
+  <tag k="source" v="OSAK (2010)"/>
+ </node>
+ <node id="3637995080" visible="true" version="1" changeset="32459947" timestamp="2015-07-06T21:52:04Z" user="Niels Elgaard Larsen" uid="1288" lat="55.5001243" lon="12.1897956"/>
+ <node id="2126263257" visible="true" version="2" changeset="34489822" timestamp="2015-10-07T12:26:06Z" user="Hjart" uid="207581" lat="55.5011195" lon="12.1874597"/>
+ <node id="3776908231" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:47Z" user="Hjart" uid="207581" lat="55.4976011" lon="12.1870617"/>
+ <node id="3776908462" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:47Z" user="Hjart" uid="207581" lat="55.4987598" lon="12.1863844"/>
+ <node id="3776908486" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:47Z" user="Hjart" uid="207581" lat="55.4993470" lon="12.1869941"/>
+ <node id="3776908490" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.4995796" lon="12.1872719"/>
+ <node id="3776908497" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.4998185" lon="12.1903694"/>
+ <node id="3776908498" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.4998246" lon="12.1902669"/>
+ <node id="3776908499" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.4998838" lon="12.1883821"/>
+ <node id="3776908502" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.4999589" lon="12.1896617"/>
+ <node id="3776908503" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.4999858" lon="12.1910911"/>
+ <node id="3776908504" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.5000096" lon="12.1882815"/>
+ <node id="3776908505" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.5000153" lon="12.1877511"/>
+ <node id="3776908506" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.5000188" lon="12.1876403"/>
+ <node id="3776908508" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.5000305" lon="12.1892039"/>
+ <node id="3776908510" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.5001248" lon="12.1882854"/>
+ <node id="3776908511" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.5001306" lon="12.1877550"/>
+ <node id="3776908512" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.5001828" lon="12.1877369"/>
+ <node id="3776908515" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.5002607" lon="12.1878841"/>
+ <node id="3776908525" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.5006784" lon="12.1883665"/>
+ <node id="3776908526" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.5006816" lon="12.1880725"/>
+ <node id="3776908532" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.5008482" lon="12.1883723"/>
+ <node id="3776908533" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.5008513" lon="12.1880782"/>
+ <node id="3776908545" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.5022632" lon="12.1854774">
+  <tag k="traffic_calming" v="island"/>
+ </node>
+ <node id="3776908550" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581" lat="55.5030175" lon="12.1836723"/>
+ <node id="1827463990" visible="true" version="3" changeset="34493273" timestamp="2015-10-07T15:24:09Z" user="Hjart" uid="207581" lat="55.5013195" lon="12.1876605">
+  <tag k="traffic_calming" v="island"/>
+ </node>
+ <node id="1827463994" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:09Z" user="Hjart" uid="207581" lat="55.4970382" lon="12.1870242">
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="3776908522" visible="true" version="2" changeset="42679314" timestamp="2016-10-06T09:44:12Z" user="Marco Muñiz" uid="3455574" lat="55.5004913" lon="12.1895534">
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="2126263219" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:10Z" user="Hjart" uid="207581" lat="55.4996812" lon="12.1873138"/>
+ <node id="2126263237" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:10Z" user="Hjart" uid="207581" lat="55.4986573" lon="12.1863393"/>
+ <node id="2126263238" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:10Z" user="Hjart" uid="207581" lat="55.4983506" lon="12.1860314"/>
+ <node id="2126263276" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:11Z" user="Hjart" uid="207581" lat="55.5002592" lon="12.1881006"/>
+ <node id="2126263282" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:11Z" user="Hjart" uid="207581" lat="55.5005703" lon="12.1881064"/>
+ <node id="24965381" visible="true" version="4" changeset="34493273" timestamp="2015-10-07T15:24:11Z" user="Hjart" uid="207581" lat="55.5030569" lon="12.1835660"/>
+ <node id="291781574" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:13Z" user="Hjart" uid="207581" lat="55.4995631" lon="12.1882125"/>
+ <node id="291781577" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:13Z" user="Hjart" uid="207581" lat="55.4973559" lon="12.1869178"/>
+ <node id="291781596" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:13Z" user="Hjart" uid="207581" lat="55.4990153" lon="12.1866839"/>
+ <node id="291781598" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:13Z" user="Hjart" uid="207581" lat="55.4989060" lon="12.1878188"/>
+ <node id="291781645" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:13Z" user="Hjart" uid="207581" lat="55.4982531" lon="12.1860001"/>
+ <node id="291781646" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:13Z" user="Hjart" uid="207581" lat="55.4982284" lon="12.1874296"/>
+ <node id="291781648" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:13Z" user="Hjart" uid="207581" lat="55.4999841" lon="12.1884079"/>
+ <node id="291781693" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:13Z" user="Hjart" uid="207581" lat="55.5002347" lon="12.1883944"/>
+ <node id="291782112" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:13Z" user="Hjart" uid="207581" lat="55.4975380" lon="12.1870246"/>
+ <node id="295790330" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:14Z" user="Hjart" uid="207581" lat="55.5014164" lon="12.1874349">
+  <tag k="traffic_calming" v="island"/>
+ </node>
+ <node id="295793740" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:14Z" user="Hjart" uid="207581" lat="55.5005691" lon="12.1883987"/>
+ <node id="295793742" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:14Z" user="Hjart" uid="207581" lat="55.5002359" lon="12.1881020"/>
+ <node id="295794844" visible="true" version="3" changeset="34493273" timestamp="2015-10-07T15:24:14Z" user="Hjart" uid="207581" lat="55.4999509" lon="12.1895874"/>
+ <node id="295795079" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:15Z" user="Hjart" uid="207581" lat="55.4997072" lon="12.1908738"/>
+ <node id="295795081" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:15Z" user="Hjart" uid="207581" lat="55.4993088" lon="12.1902248"/>
+ <node id="295795103" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:15Z" user="Hjart" uid="207581" lat="55.4997791" lon="12.1905482"/>
+ <node id="298128171" visible="true" version="4" changeset="34493273" timestamp="2015-10-07T15:24:15Z" user="Hjart" uid="207581" lat="55.5029046" lon="12.1839600">
+  <tag k="traffic_calming" v="island"/>
+ </node>
+ <node id="4161097315" visible="true" version="1" changeset="39035357" timestamp="2016-05-02T10:46:32Z" user="Hjart" uid="207581" lat="55.5063735" lon="12.1882173"/>
+ <node id="4161097318" visible="true" version="1" changeset="39035357" timestamp="2016-05-02T10:46:32Z" user="Hjart" uid="207581" lat="55.5067529" lon="12.1935341"/>
+ <node id="4434044780" visible="true" version="1" changeset="42679224" timestamp="2016-10-06T09:39:38Z" user="Marco Muñiz" uid="3455574" lat="55.5006332" lon="12.1890390"/>
+ <node id="4434044781" visible="true" version="1" changeset="42679224" timestamp="2016-10-06T09:39:38Z" user="Marco Muñiz" uid="3455574" lat="55.5007611" lon="12.1892080"/>
+ <node id="4434044782" visible="true" version="1" changeset="42679224" timestamp="2016-10-06T09:39:38Z" user="Marco Muñiz" uid="3455574" lat="55.5004492" lon="12.1894989"/>
+ <node id="4434044783" visible="true" version="1" changeset="42679224" timestamp="2016-10-06T09:39:38Z" user="Marco Muñiz" uid="3455574" lat="55.5005560" lon="12.1896371"/>
+ <node id="4434045846" visible="true" version="1" changeset="42679314" timestamp="2016-10-06T09:44:12Z" user="Marco Muñiz" uid="3455574" lat="55.5009145" lon="12.1886555"/>
+ <node id="3776908527" visible="true" version="3" changeset="42679314" timestamp="2016-10-06T09:44:12Z" user="Marco Muñiz" uid="3455574" lat="55.5007191" lon="12.1891064">
+  <tag k="crossing" v="island"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="3776908516" visible="true" version="2" changeset="42679314" timestamp="2016-10-06T09:44:13Z" user="Marco Muñiz" uid="3455574" lat="55.5003258" lon="12.1899446"/>
+ <node id="4434045847" visible="true" version="2" changeset="42680093" timestamp="2016-10-06T10:21:09Z" user="Marco Muñiz" uid="3455574" lat="55.5010472" lon="12.1883152"/>
+ <node id="4434078913" visible="true" version="1" changeset="42680093" timestamp="2016-10-06T10:21:08Z" user="Marco Muñiz" uid="3455574" lat="55.5007337" lon="12.1891036"/>
+ <node id="4434078914" visible="true" version="1" changeset="42680093" timestamp="2016-10-06T10:21:09Z" user="Marco Muñiz" uid="3455574" lat="55.5007208" lon="12.1890781"/>
+ <node id="4434078915" visible="true" version="1" changeset="42680093" timestamp="2016-10-06T10:21:09Z" user="Marco Muñiz" uid="3455574" lat="55.5009198" lon="12.1886208"/>
+ <node id="4434078916" visible="true" version="1" changeset="42680093" timestamp="2016-10-06T10:21:09Z" user="Marco Muñiz" uid="3455574" lat="55.5010770" lon="12.1882037"/>
+ <node id="4434078917" visible="true" version="1" changeset="42680093" timestamp="2016-10-06T10:21:09Z" user="Marco Muñiz" uid="3455574" lat="55.5012958" lon="12.1876955"/>
+ <node id="4434078918" visible="true" version="1" changeset="42680093" timestamp="2016-10-06T10:21:09Z" user="Marco Muñiz" uid="3455574" lat="55.5013106" lon="12.1877154"/>
+ <node id="4434078919" visible="true" version="1" changeset="42680093" timestamp="2016-10-06T10:21:09Z" user="Marco Muñiz" uid="3455574" lat="55.5009900" lon="12.1884840"/>
+ <node id="4434078920" visible="true" version="1" changeset="42680093" timestamp="2016-10-06T10:21:09Z" user="Marco Muñiz" uid="3455574" lat="55.5008535" lon="12.1888261"/>
+ <node id="4434181753" visible="true" version="1" changeset="42681826" timestamp="2016-10-06T11:41:54Z" user="Marco Muñiz" uid="3455574" lat="55.5009810" lon="12.1884133"/>
+ <node id="4434181754" visible="true" version="1" changeset="42681826" timestamp="2016-10-06T11:41:54Z" user="Marco Muñiz" uid="3455574" lat="55.5006883" lon="12.1890643"/>
+ <node id="4434181755" visible="true" version="1" changeset="42681826" timestamp="2016-10-06T11:41:54Z" user="Marco Muñiz" uid="3455574" lat="55.5004717" lon="12.1895671"/>
+ <node id="4434181756" visible="true" version="1" changeset="42681826" timestamp="2016-10-06T11:41:54Z" user="Marco Muñiz" uid="3455574" lat="55.5004823" lon="12.1895850"/>
+ <node id="4434181757" visible="true" version="1" changeset="42681826" timestamp="2016-10-06T11:41:54Z" user="Marco Muñiz" uid="3455574" lat="55.5003531" lon="12.1898927"/>
+ <node id="4434181758" visible="true" version="1" changeset="42681826" timestamp="2016-10-06T11:41:54Z" user="Marco Muñiz" uid="3455574" lat="55.5003308" lon="12.1899463"/>
+ <node id="4434181759" visible="true" version="1" changeset="42681826" timestamp="2016-10-06T11:41:54Z" user="Marco Muñiz" uid="3455574" lat="55.5002004" lon="12.1902988"/>
+ <node id="4434181760" visible="true" version="1" changeset="42681826" timestamp="2016-10-06T11:41:54Z" user="Marco Muñiz" uid="3455574" lat="55.5003164" lon="12.1899560"/>
+ <way id="26308067" visible="true" version="9" changeset="39035357" timestamp="2016-05-02T10:46:33Z" user="Hjart" uid="207581">
+  <nd ref="288206861"/>
+  <nd ref="288207227"/>
+  <nd ref="288206709"/>
+  <nd ref="288207335"/>
+  <nd ref="288207337"/>
+  <nd ref="288206710"/>
+  <nd ref="288207167"/>
+  <nd ref="540637372"/>
+  <nd ref="540637381"/>
+  <nd ref="540637385"/>
+  <nd ref="288206712"/>
+  <nd ref="288207175"/>
+  <nd ref="4161097318"/>
+  <nd ref="288207343"/>
+  <nd ref="4161097315"/>
+  <nd ref="288207344"/>
+  <nd ref="288206861"/>
+  <tag k="landuse" v="industrial"/>
+ </way>
+ <way id="26308093" visible="true" version="25" changeset="29268091" timestamp="2015-03-05T16:02:30Z" user="Niels Elgaard Larsen" uid="1288">
+  <nd ref="288208029"/>
+  <nd ref="540637259"/>
+  <nd ref="540637265"/>
+  <nd ref="540637270"/>
+  <nd ref="540637271"/>
+  <nd ref="540637274"/>
+  <nd ref="540637275"/>
+  <nd ref="540637278"/>
+  <nd ref="540637281"/>
+  <nd ref="540637284"/>
+  <nd ref="540637285"/>
+  <nd ref="288208030"/>
+  <nd ref="288208894"/>
+  <nd ref="288208032"/>
+  <nd ref="290085421"/>
+  <nd ref="290085424"/>
+  <nd ref="290085543"/>
+  <nd ref="293519902"/>
+  <nd ref="293519903"/>
+  <nd ref="288208895"/>
+  <nd ref="288208896"/>
+  <nd ref="288208035"/>
+  <nd ref="288208897"/>
+  <nd ref="288208898"/>
+  <nd ref="288208038"/>
+  <nd ref="288208900"/>
+  <nd ref="288208901"/>
+  <nd ref="2076138896"/>
+  <nd ref="288208041"/>
+  <nd ref="288208042"/>
+  <nd ref="2076145781"/>
+  <nd ref="288208904"/>
+  <nd ref="288208906"/>
+  <nd ref="288208044"/>
+  <nd ref="288207572"/>
+  <nd ref="298126997"/>
+  <nd ref="298126999"/>
+  <nd ref="288208908"/>
+  <nd ref="288207573"/>
+  <nd ref="288208909"/>
+  <nd ref="288208911"/>
+  <nd ref="288208912"/>
+  <nd ref="288208913"/>
+  <nd ref="288208914"/>
+  <nd ref="1827464008"/>
+  <nd ref="1827463981"/>
+  <nd ref="288208915"/>
+  <nd ref="288206859"/>
+  <nd ref="288206709"/>
+  <nd ref="288207335"/>
+  <nd ref="288207337"/>
+  <nd ref="288206710"/>
+  <nd ref="288207167"/>
+  <nd ref="288207168"/>
+  <nd ref="540637286"/>
+  <nd ref="540637289"/>
+  <nd ref="288208029"/>
+  <tag k="landuse" v="residential"/>
+ </way>
+ <way id="26446721" visible="true" version="8" changeset="14766728" timestamp="2013-01-24T13:47:01Z" user="AGdk" uid="596531">
+  <nd ref="288204511"/>
+  <nd ref="24965384"/>
+  <nd ref="288204943"/>
+  <nd ref="352862964"/>
+  <nd ref="288204998"/>
+  <nd ref="288204911"/>
+  <nd ref="288205049"/>
+  <nd ref="288204869"/>
+  <nd ref="288205069"/>
+  <nd ref="1825685652"/>
+  <nd ref="1827463994"/>
+  <nd ref="288206158"/>
+  <nd ref="2126263286"/>
+  <nd ref="2126263236"/>
+  <nd ref="288206088"/>
+  <nd ref="1693132974"/>
+  <nd ref="1693132975"/>
+  <nd ref="1693132977"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lanes" v="2"/>
+  <tag k="maxspeed" v="50"/>
+  <tag k="name" v="Nylandsvej"/>
+  <tag k="surface" v="paved"/>
+ </way>
+ <way id="26986494" visible="true" version="3" changeset="34493273" timestamp="2015-10-07T15:24:07Z" user="Hjart" uid="207581">
+  <nd ref="291781693"/>
+  <nd ref="295793740"/>
+  <nd ref="2126263282"/>
+  <nd ref="2126263276"/>
+  <nd ref="295793742"/>
+  <nd ref="291781693"/>
+  <tag k="highway" v="service"/>
+  <tag k="surface" v="paved"/>
+ </way>
+ <way id="26986586" visible="true" version="4" changeset="34493273" timestamp="2015-10-07T15:23:54Z" user="Hjart" uid="207581">
+  <nd ref="295795081"/>
+  <nd ref="295795103"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lanes" v="2"/>
+  <tag k="maxspeed" v="50"/>
+  <tag k="name" v="Egebækvænge"/>
+  <tag k="surface" v="paved"/>
+ </way>
+ <way id="26986575" visible="true" version="4" changeset="34493273" timestamp="2015-10-07T15:23:57Z" user="Hjart" uid="207581">
+  <nd ref="295794873"/>
+  <nd ref="295794845"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lanes" v="2"/>
+  <tag k="maxspeed" v="50"/>
+  <tag k="name" v="Kibækvænge"/>
+  <tag k="surface" v="paved"/>
+ </way>
+ <way id="26606305" visible="true" version="10" changeset="34493273" timestamp="2015-10-07T15:23:59Z" user="Hjart" uid="207581">
+  <nd ref="291781693"/>
+  <nd ref="291781648"/>
+  <nd ref="3776908499"/>
+  <nd ref="295793388"/>
+  <nd ref="291781574"/>
+  <nd ref="291781598"/>
+  <nd ref="291781646"/>
+  <nd ref="3776908231"/>
+  <nd ref="291782112"/>
+  <nd ref="291781577"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lanes" v="2"/>
+  <tag k="maxspeed" v="50"/>
+  <tag k="name" v="Nylandsvej"/>
+  <tag k="surface" v="paved"/>
+ </way>
+ <way id="157076458" visible="true" version="1" changeset="11114330" timestamp="2012-03-27T11:46:54Z" user="mok0" uid="149691">
+  <nd ref="1693132995"/>
+  <nd ref="1693132994"/>
+  <nd ref="1693132983"/>
+  <nd ref="288206448"/>
+  <nd ref="1693132980"/>
+  <nd ref="1693132977"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lanes" v="2"/>
+  <tag k="maxspeed" v="50"/>
+  <tag k="name" v="Værkstedsvej"/>
+  <tag k="surface" v="paved"/>
+ </way>
+ <way id="202661830" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:02Z" user="Hjart" uid="207581">
+  <nd ref="2126263223"/>
+  <nd ref="2126263229"/>
+  <nd ref="2126263228"/>
+  <nd ref="291781645"/>
+  <nd ref="2126263238"/>
+  <nd ref="2126263237"/>
+  <nd ref="3776908462"/>
+  <nd ref="2126263230"/>
+  <nd ref="291781596"/>
+  <nd ref="3776908486"/>
+  <nd ref="2126263235"/>
+  <nd ref="3776908490"/>
+  <nd ref="2126263219"/>
+  <nd ref="3776908506"/>
+  <nd ref="3776908512"/>
+  <nd ref="3776908515"/>
+  <nd ref="2126263276"/>
+  <tag k="bicycle" v="designated"/>
+  <tag k="foot" v="designated"/>
+  <tag k="highway" v="path"/>
+ </way>
+ <way id="358976052" visible="true" version="1" changeset="32459947" timestamp="2015-07-06T21:52:05Z" user="Niels Elgaard Larsen" uid="1288">
+  <nd ref="3637995080"/>
+  <nd ref="295794844"/>
+  <tag k="highway" v="service"/>
+  <tag k="service" v="driveway"/>
+ </way>
+ <way id="374313585" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:48Z" user="Hjart" uid="207581">
+  <nd ref="3776908497"/>
+  <nd ref="295795103"/>
+  <nd ref="295795079"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lanes" v="2"/>
+  <tag k="maxspeed" v="50"/>
+  <tag k="name" v="Egebækvænge"/>
+  <tag k="surface" v="paved"/>
+ </way>
+ <way id="374313588" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:49Z" user="Hjart" uid="207581">
+  <nd ref="3776908508"/>
+  <nd ref="295794845"/>
+  <nd ref="295794844"/>
+  <tag k="highway" v="residential"/>
+  <tag k="lanes" v="2"/>
+  <tag k="maxspeed" v="50"/>
+  <tag k="name" v="Kibækvænge"/>
+  <tag k="surface" v="paved"/>
+ </way>
+ <way id="374313597" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:50Z" user="Hjart" uid="207581">
+  <nd ref="3776908511"/>
+  <nd ref="3776908510"/>
+  <nd ref="3776908504"/>
+  <nd ref="3776908505"/>
+  <nd ref="3776908511"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="374313602" visible="true" version="1" changeset="34493273" timestamp="2015-10-07T15:23:51Z" user="Hjart" uid="207581">
+  <nd ref="3776908533"/>
+  <nd ref="3776908532"/>
+  <nd ref="3776908525"/>
+  <nd ref="3776908526"/>
+  <nd ref="3776908533"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="202661837" visible="true" version="2" changeset="34493273" timestamp="2015-10-07T15:24:07Z" user="Hjart" uid="207581">
+  <nd ref="2126263257"/>
+  <nd ref="2126263231"/>
+  <nd ref="2126263284"/>
+  <nd ref="2126263280"/>
+  <nd ref="2126263232"/>
+  <nd ref="2126263282"/>
+  <tag k="bicycle" v="designated"/>
+  <tag k="foot" v="designated"/>
+  <tag k="highway" v="path"/>
+ </way>
+ <way id="374313650" visible="true" version="2" changeset="38585551" timestamp="2016-04-15T11:40:04Z" user="Lise Lindberg Frellesen" uid="3810320">
+  <nd ref="295794844"/>
+  <nd ref="3776908502"/>
+  <nd ref="3776908498"/>
+  <nd ref="3776908497"/>
+  <tag k="foot" v="yes"/>
+  <tag k="highway" v="path"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="446074143" visible="true" version="1" changeset="42679224" timestamp="2016-10-06T09:39:38Z" user="Marco Muñiz" uid="3455574">
+  <nd ref="4434044780"/>
+  <nd ref="4434044781"/>
+  <tag k="crossing" v="zebra"/>
+  <tag k="footway" v="crossing"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="446074144" visible="true" version="2" changeset="42679314" timestamp="2016-10-06T09:44:13Z" user="Marco Muñiz" uid="3455574">
+  <nd ref="4434044782"/>
+  <nd ref="3776908522"/>
+  <nd ref="4434044783"/>
+  <tag k="crossing" v="zebra"/>
+  <tag k="footway" v="crossing"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="366845096" visible="true" version="4" changeset="42681826" timestamp="2016-10-06T11:41:55Z" user="Marco Muñiz" uid="3455574">
+  <nd ref="24965381"/>
+  <nd ref="3776908550"/>
+  <nd ref="298128171"/>
+  <nd ref="288206444"/>
+  <nd ref="3776908545"/>
+  <nd ref="295790330"/>
+  <nd ref="1827463990"/>
+  <nd ref="4434045847"/>
+  <nd ref="4434045846"/>
+  <nd ref="3776908527"/>
+  <nd ref="1693132977"/>
+  <nd ref="3776908522"/>
+  <nd ref="3776908516"/>
+  <nd ref="288206445"/>
+  <nd ref="3776908503"/>
+  <nd ref="288206446"/>
+  <tag k="cycleway" v="lane"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="2"/>
+  <tag k="lit" v="yes"/>
+  <tag k="maxspeed" v="50"/>
+  <tag k="name" v="Egedesvej"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="446078490" visible="true" version="1" changeset="42680093" timestamp="2016-10-06T10:21:09Z" user="Marco Muñiz" uid="3455574">
+  <nd ref="4434078913"/>
+  <nd ref="4434078914"/>
+  <nd ref="4434078915"/>
+  <nd ref="4434078916"/>
+  <nd ref="4434078917"/>
+  <nd ref="4434078918"/>
+  <nd ref="4434078919"/>
+  <nd ref="4434078920"/>
+  <nd ref="4434078913"/>
+  <tag k="area" v="yes"/>
+  <tag k="name" v="road_division"/>
+ </way>
+ <way id="446089603" visible="true" version="1" changeset="42681826" timestamp="2016-10-06T11:41:54Z" user="Marco Muñiz" uid="3455574">
+  <nd ref="4434181753"/>
+  <nd ref="4434181754"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="446089604" visible="true" version="1" changeset="42681826" timestamp="2016-10-06T11:41:54Z" user="Marco Muñiz" uid="3455574">
+  <nd ref="4434181755"/>
+  <nd ref="4434181756"/>
+  <nd ref="4434181757"/>
+  <nd ref="4434181758"/>
+  <nd ref="4434181759"/>
+  <nd ref="4434181760"/>
+  <nd ref="4434181755"/>
+  <tag k="area" v="yes"/>
+  <tag k="name" v="roadSeparator"/>
+ </way>
+</osm>

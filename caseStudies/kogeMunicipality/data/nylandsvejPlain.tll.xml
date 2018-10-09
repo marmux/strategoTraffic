@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu 06 Oct 2016 07:08:39 PM CEST by Netedit Version 0.25.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit.exeConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/muniz/repos/muniz/DiCyPS/models/sumo/nylandsvej/maps/nylandsvej.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/muniz/repos/muniz/DiCyPS/models/sumo/nylandsvej/maps/nylandsvej.net.xml"/>
+        <plain-output-prefix value="/home/muniz/repos/muniz/DiCyPS/models/sumo/nylandsvej/maps/nylandsvejPlain"/>
+    </output>
+
+    <processing>
+        <no-turnarounds value="true"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+        <junctions.corner-detail value="0"/>
+    </processing>
+
+</configuration>
+-->
+
+<tlLogics version="0.25" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tllogic_file.xsd">
+ <!--    <tlLogic id="24965384" type="static" programID="0" offset="0"> -->
+<!--         <phase duration="86" state="GgGg"/> -->
+<!--         <phase duration="4" state="GgGg"/> -->
+<!--     </tlLogic> -->
+<!--     <tlLogic id="288206447" type="static" programID="0" offset="0"> -->
+<!--         <phase duration="86" state="G"/> -->
+<!--         <phase duration="4" state="G"/> -->
+<!--     </tlLogic> -->
+<!--     <tlLogic id="289807435" type="static" programID="0" offset="0"> -->
+<!--         <phase duration="86" state="GgGg"/> -->
+<!--         <phase duration="4" state="GgGg"/> -->
+<!--     </tlLogic> -->
+<!-- c -->
+
+    <!-- this is the tl of interest -->
+    <!-- the lanes match the following order ABCDEFGHIJKLMN: -->
+    <!-- A up_left -->
+    <!-- B up_down -->
+    <!-- C up_right -->    
+    <!-- D right_up -->    
+    <!-- E right_left -->    
+    <!-- F right_down low priority -->    
+    <!-- G down_right -->    
+    <!-- H down_up -->
+    <!-- I down_left -->    
+    <!-- J left_down -->
+    <!-- K left_right -->
+    <!-- L left_up low priority -->
+
+
+    <!-- encoding program nr 8 -->
+    <tlLogic id="1693132977" type="static" programID="reserve" offset="0">
+      <phase duration="35" state="rrrGGgrrrGGg"/>
+      <phase duration="4" state="rrryyyrrryyy"/>
+      <phase duration="4" state="rrrrrrrrrrrr"/>
+      <phase duration="20" state="GGgrrrGGgrrr"/>
+      <phase duration="4" state="yyyrrryyyrrr"/>
+      <phase duration="4" state="rrrrrrrrrrrr"/>
+    </tlLogic>
+    
+    <tlLogic id="1693132977" type="static" programID="max" offset="0">
+      <phase duration="52" state="rrrGGgrrrGGg"/>
+      <phase duration="4" state="rrryyyrrryyy"/>
+      <phase duration="4" state="rrrrrrrrrrrr"/>
+      <phase duration="36" state="GGgrrrGGgrrr"/>
+      <phase duration="4" state="yyyrrryyyrrr"/>
+      <phase duration="4" state="rrrrrrrrrrrr"/>
+    </tlLogic>
+	
+    <tlLogic id="1693132977" type="static" programID="mid" offset="0">
+      <phase duration="31" state="rrrGGgrrrGGg"/>
+      <phase duration="4" state="rrryyyrrryyy"/>
+      <phase duration="4" state="rrrrrrrrrrrr"/>
+      <phase duration="17" state="GGgrrrGGgrrr"/>
+      <phase duration="4" state="yyyrrryyyrrr"/>
+      <phase duration="4" state="rrrrrrrrrrrr"/>
+    </tlLogic>
+
+    <tlLogic id="1693132977" type="static" programID="low" offset="0">
+      <phase duration="24" state="rrrGGgrrrGGg"/>
+      <phase duration="4" state="rrryyyrrryyy"/>
+      <phase duration="4" state="rrrrrrrrrrrr"/>
+      <phase duration="12" state="GGgrrrGGgrrr"/>
+      <phase duration="4" state="yyyrrryyyrrr"/>
+      <phase duration="4" state="rrrrrrrrrrrr"/>
+    </tlLogic>
+
+    <!-- an actuated controller, was not working out of the box, bad performance -->
+    <!-- <tlLogic id="1693132977" type="actuated" programID="actuated" offset="0"> -->
+    <!--   <phase duration="35" state="rrrGGgrrrGGg"/> -->
+    <!--   <phase duration="4" state="rrryyyrrryyy"/> -->
+    <!--   <phase duration="4" state="rrrrrrrrrrrr"/> -->
+    <!--   <phase duration="20" state="GGgrrrGGgrrr"/> -->
+    <!--   <phase duration="4" state="yyyrrryyyrrr"/> -->
+    <!--   <phase duration="4" state="rrrrrrrrrrrr"/> -->
+    <!-- </tlLogic> -->
+    
+    <!-- <connection from="-26446721#1" to="-26446721#0" fromLane="0" toLane="0" tl="24965384" linkIndex="0"/> -->
+    <!-- <connection from="-26446721#1" to="26446721#1" fromLane="0" toLane="0" tl="24965384" linkIndex="1"/> -->
+    <!-- <connection from="-366845096#5" to="-366845096#4" fromLane="0" toLane="0" tl="289807435" linkIndex="0"/> -->
+    <!-- <connection from="-366845096#5" to="366845096#5" fromLane="0" toLane="0" tl="289807435" linkIndex="1"/> -->
+    <!-- <connection from="26446721#0" to="26446721#1" fromLane="0" toLane="0" tl="24965384" linkIndex="2"/> -->
+    <!-- <connection from="26446721#0" to="-26446721#0" fromLane="0" toLane="0" tl="24965384" linkIndex="3"/> -->
+    <!-- <connection from="366845096#4" to="366845096#5" fromLane="0" toLane="0" tl="289807435" linkIndex="2"/> -->
+    <!-- <connection from="366845096#4" to="-366845096#4" fromLane="0" toLane="0" tl="289807435" linkIndex="3"/> -->
+    <!-- <connection from="366845096#5" to="-366845096#5" fromLane="0" toLane="0" tl="288206447" linkIndex="0"/> -->
+</tlLogics>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nta PUBLIC '-//Uppaal Team//DTD Flat System 1.1//EN' 'http://www.it.uu.se/research/group/darts/uppaal/flat-1_2.dtd'>
+<nta>
+	<declaration>//align with sumo model
+//                                              North
+//                				      	|	     |	       |
+// 				                        |	B2   |	       |
+//                     				 	|	 |   |	       |
+//                     					|	 v   | 	       |
+// --------------------------------------                  ------------------------------------- 
+//                                                                        D13
+//                                                              A2  ^&lt;............... 
+//                                                    
+//                                                          ---------------------------------------      
+//                                                                   v---------     D12        
+//
+// --------------------------------------                  ---------------------------------------
+// 		   		      D5           ^     	     critical Cij i,j \in {1,...,8}
+//    	 straight     A1  .........
+// West	--------------------------------    							East
+//                    D3
+// 	                    -----------&gt;v    		     .
+// -------------------------------------|	     |	  ^    |------------------------------------
+//                				      	|	     |	  |    |
+// 				                        |	     |	  B1   |
+//                     				 	|	     |	       |
+//                     					|	     | 	       |
+// 					                             South
+
+//we consider 6 signals (name,id)  (A1_0,1) (A1_1,2) (A2_0,3) (A2_1,4) (B1,5) (B2,6)
+
+
+int totalJammedCars = 0;
+int curStep = 0;
+
+//CONSTANTS
+const int NrAvenues = 6;
+const int Signals_AV_West = 2;
+const int Signals_AV_North = 1;
+const int Signals_AV_South = 1;
+const int Signals_AV_East = 2; 
+const int NrOfSignals = Signals_AV_West + Signals_AV_North + Signals_AV_South + Signals_AV_East;
+const int NrOfSignalConfs = 2*2*2*2*2*2-1; //2^NS 
+const int NrOfMaxCompSignalConfs = 2; 
+const int MIN_GREEN = 20, MAX_GREEN = 45;
+const int YELLOW = 6;
+const int Horizon = 90; //90 step simulations = 90 secs
+const int delayMultiplier = 5; 
+const int stepsToCross = 1; // a car needs to steps (2secs) to cross in average
+const int deconstructJamRate = 1;
+
+
+
+//TYPES
+typedef int[0,NrOfSignalConfs] signal_conf_t;
+typedef int[1,NrOfSignals] signal_t;
+typedef int[0,NrOfMaxCompSignalConfs-1] max_signal_conf_t;
+typedef int[4,9] del_choice_t; //this means delay \in [MIN_GREEN*delay_multiplier,9*delay]
+
+broadcast chan green[max_signal_conf_t];
+broadcast chan yellow[max_signal_conf_t];
+broadcast chan red[max_signal_conf_t];
+
+
+const signal_conf_t maximal_comp_comb[max_signal_conf_t] = {
+15, 48  //15 is lane A{1,2}_{0,1} enabled, 48 is lane B{1,2} ebabled
+};
+
+
+//ON THE FLY ARGUMENTS
+//signal should be updated on the fly
+bool signal[signal_t] = {
+false, false, false, false, false, false
+};
+
+//this is the current state of the system, we let if flow for MIN_GREEN
+
+
+int incommingCars[signal_t] = {
+0, 0, 0, 0, 0, 0
+};
+
+int delchoice = 0;
+
+//to replace by python script
+//const max_signal_conf_t initialPhase = 1; 
+//int carsAreal[signal_t] = {12,  54,  20,  15};
+//int carsJammed[signal_t] = {12,  54, 15, 15, 20,  15};
+//const int firstDelay = MIN_GREEN;
+
+ 
+//PLACE HOLDERS
+//HOLDER_INITIAL_PHASE
+
+//HOLDER_CARS_JAMMED
+//first delay is dinamic in contrast to the 15 min for the floor heating, a yellow phase has to follow. i.e. fd = delay + yellow
+//HOLDER_FIRST_DELAY
+//HOLDER_SIM_STEP
+
+max_signal_conf_t phasechoice;
+
+
+
+
+</declaration>
+	<template>
+		<name x="5" y="5">trafficLights</name>
+		<declaration>clock x;
+
+void turnYellowOn() {
+  for (i:signal_t)    {
+      signal[i] = false;
+  }
+}
+
+
+void selectPhase(max_signal_conf_t ms_conf) {
+  signal_conf_t s_conf = maximal_comp_comb[ms_conf];  
+  for (i:signal_t)    {
+      signal[i] = (s_conf &amp; (1&lt;&lt;(i-1)))==(1&lt;&lt;(i-1));
+  }
+}
+
+
+void normalize() {
+    for (i:signal_t) {
+        if (carsJammed[i] &lt; 0)
+            carsJammed[i] = 0;
+    }
+}
+
+void flow(int delaySteps) {
+    int carsPassed = 0;
+    int stepCounter = 0;
+    int incCars = 0;
+    const int upperStep = curStep + delaySteps;
+    int j;
+    for (j=curStep; j&lt;=upperStep; j++) {
+        if (stepCounter &gt; stepsToCross) {
+            carsPassed = 1;
+            stepCounter = 0;
+        }        
+        for (i:signal_t)    {
+            if (signal[i]) {   
+                carsJammed[i] = carsJammed[i] - carsPassed;    
+            }
+            else {
+                carsJammed[i] = carsJammed[i];
+            }            
+            totalJammedCars = totalJammedCars + carsJammed[i];
+          }
+        curStep++;
+        stepCounter++;
+        normalize();
+        
+    }    
+    // do something like if enabled carsPassing = carsPassing - carsPassed + incomming(i) otherwise carsPassing = carsPassing + incomming(i) keep value &gt;= 0
+    // for carsJammed do if not enabled carsJammed = carsJammed + incomming(i,timetojam!) if enabled carsJammed = 0
+}
+
+
+  
+void resetUnneeded() {
+//    delchoice = 0;
+    curStep = 0;
+    totalJammedCars = 0;
+    for (i:signal_t) {
+        //units[i] = 0.0;
+        //signal[i] = false;
+    }    
+}
+</declaration>
+		<location id="id0" x="-144" y="-153">
+			<name x="-246" y="-144">ChoosePhase</name>
+			<urgent/>
+		</location>
+		<location id="id1" x="561" y="-153">
+			<name x="544" y="-136">Yellow</name>
+			<label kind="invariant" x="518" y="-119">x &lt;= YELLOW</label>
+		</location>
+		<location id="id2" x="-365" y="-153">
+			<urgent/>
+		</location>
+		<location id="id3" x="-391" y="-331">
+			<name x="-425" y="-314">__RESET__</name>
+		</location>
+		<location id="id4" x="119" y="-153">
+			<name x="17" y="-153">chooseDelay</name>
+			<urgent/>
+		</location>
+		<location id="id5" x="365" y="-153">
+			<name x="356" y="-136">Green</name>
+			<label kind="invariant" x="348" y="-119">x &lt;= delchoice</label>
+		</location>
+		<location id="id6" x="-144" y="0">
+			<name x="-170" y="17">DONE</name>
+		</location>
+		<init ref="id2"/>
+		<transition controllable="false">
+			<source ref="id0"/>
+			<target ref="id6"/>
+			<label kind="guard" x="-297" y="-76">curStep &gt;= Horizon</label>
+		</transition>
+		<transition controllable="false">
+			<source ref="id5"/>
+			<target ref="id1"/>
+			<label kind="guard" x="374" y="-187">x &gt;= delchoice</label>
+			<label kind="synchronisation" x="383" y="-170">yellow[phasechoice]!</label>
+			<label kind="assignment" x="382" y="-238">flow(delchoice),
+turnYellowOn(),
+x = 0</label>
+		</transition>
+		<transition>
+			<source ref="id4"/>
+			<target ref="id5"/>
+			<label kind="select" x="136" y="-178">s_delay:del_choice_t</label>
+			<label kind="synchronisation" x="136" y="-204">green[phasechoice]!</label>
+			<label kind="assignment" x="136" y="-153">delchoice = 
+s_delay*delayMultiplier,
+x = 0</label>
+		</transition>
+		<transition controllable="false">
+			<source ref="id3"/>
+			<target ref="id3"/>
+			<label kind="assignment" x="-442" y="-459">resetUnneeded()</label>
+			<nail x="-442" y="-433"/>
+			<nail x="-348" y="-433"/>
+		</transition>
+		<transition controllable="false">
+			<source ref="id1"/>
+			<target ref="id0"/>
+			<label kind="guard" x="127" y="-425">x &gt;= YELLOW</label>
+			<label kind="synchronisation" x="102" y="-450">red[phasechoice]!</label>
+			<label kind="assignment" x="153" y="-408">x = 0</label>
+			<nail x="561" y="-374"/>
+			<nail x="-144" y="-374"/>
+		</transition>
+		<transition controllable="false">
+			<source ref="id2"/>
+			<target ref="id0"/>
+		</transition>
+		<transition>
+			<source ref="id0"/>
+			<target ref="id4"/>
+			<label kind="select" x="-110" y="-178">ms_conf:max_signal_conf_t</label>
+			<label kind="guard" x="-110" y="-195">curStep &lt; Horizon</label>
+			<label kind="assignment" x="-127" y="-136">selectPhase(ms_conf),
+phasechoice = ms_conf</label>
+		</transition>
+	</template>
+	<template>
+		<name>phasei</name>
+		<parameter>max_signal_conf_t id</parameter>
+		<declaration>clock timer;
+
+void resetUnneeded() {
+    timer = 0;
+
+}
+</declaration>
+		<location id="id7" x="-102" y="-595">
+			<name x="-85" y="-603">RED</name>
+		</location>
+		<location id="id8" x="-102" y="-459">
+			<name x="-85" y="-467">GREEN</name>
+		</location>
+		<location id="id9" x="-102" y="-314">
+			<name x="-85" y="-323">YELLOW</name>
+		</location>
+		<location id="id10" x="-493" y="-603">
+			<name x="-535" y="-586">__RESET__</name>
+		</location>
+		<init ref="id7"/>
+		<transition controllable="false">
+			<source ref="id9"/>
+			<target ref="id7"/>
+			<label kind="synchronisation" x="-280" y="-476">red[id]?</label>
+			<label kind="assignment" x="-289" y="-459">timer = 0</label>
+			<nail x="-110" y="-314"/>
+			<nail x="-221" y="-314"/>
+			<nail x="-221" y="-595"/>
+		</transition>
+		<transition>
+			<source ref="id8"/>
+			<target ref="id9"/>
+			<label kind="synchronisation" x="-85" y="-408">yellow[id]?</label>
+			<label kind="assignment" x="-85" y="-391">timer = 0</label>
+		</transition>
+		<transition>
+			<source ref="id7"/>
+			<target ref="id8"/>
+			<label kind="synchronisation" x="-93" y="-544">green[id]?</label>
+			<label kind="assignment" x="-93" y="-527">timer = 0</label>
+		</transition>
+		<transition controllable="false">
+			<source ref="id10"/>
+			<target ref="id10"/>
+			<label kind="assignment" x="-544" y="-731">resetUnneeded()</label>
+			<nail x="-544" y="-705"/>
+			<nail x="-450" y="-705"/>
+		</transition>
+	</template>
+	<system>system 
+    trafficLights
+    ,phasei
+//    ,env
+;
+    </system>
+	<queries>
+		<query>
+			<formula>strategy Opt =minE (totalJammedCars) [&lt;=2*Horizon]: &lt;&gt; trafficLights.DONE</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>strategy GoSafe = control: A[] (phasei(0).timer&lt;=50 &amp;&amp; phasei(1).timer&lt;=50) || trafficLights.DONE</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>strategy OptSafe =minE (totalJammedCars) [&lt;=Horizon*2]: &lt;&gt; trafficLights.DONE under GoSafe</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>simulate 20 [&lt;=Horizon] { totalJammedCars } </formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>simulate 20 [&lt;=Horizon] { totalJammedCars } under Opt</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>E[&lt;=Horizon;1000] (max: totalJammedCars) </formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>E[&lt;=Horizon;1000] (max: totalJammedCars) under Opt</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>E[&lt;=Horizon;1000] (max: trip) under Opt //expected time for targetCar to pass</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula></formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula></formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>simulate 1 [&lt;=Horizon] { carsJammed[1], carsJammed[2], carsJammed[3], carsJammed[4] }</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>simulate 100 [&lt;=Horizon] { carsAreal[1], carsAreal[2], carsAreal[3], carsAreal[4] }</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>simulate 1 [&lt;=Horizon] { carsAreal[1], carsAreal[2], carsAreal[3], carsAreal[4] } under Opt</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>simulate 1 [&lt;=Horizon] { signal[1], 2+signal[2], 4+signal[3], 6+signal[4] } under Opt</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>simulate 10 [&lt;=Horizon] { signal[1], 2+signal[2], 4+signal[3], 6+signal[4]} under Opt</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>simulate 1 [&lt;=Horizon] {  4+signal[3], 32+carsPassedTargetLane, targetCarPassed, units[3] } under OptCarTarget</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>simulate 10 [&lt;=Horizon] { signal[1], 2+signal[2], 4+signal[3], 6+signal[4]} under OptCarTarget</formula>
+			<comment></comment>
+		</query>
+	</queries>
+</nta>
